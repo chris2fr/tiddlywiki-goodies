@@ -1,13 +1,21 @@
 created: 20151029113521099
-modified: 20151109112004705
+modified: 20151111090646417
 title: TaskList
 type: application/x-tiddler
 
 This list detects [tag[task]] and [tag[done]] tags.
 
+! Important Tasks
+
+<$list filter="[all[shadows+tiddlers]!has[draft.of]tag[task]!tag[done]tag[Important]sort[created]]" template="TaskListTemplate"/>
+
+! Urgent Tasks
+
+<$list filter="[all[shadows+tiddlers]!has[draft.of]tag[task]!tag[done]tag[Urgent]sort[created]]" template="TaskListTemplate"/>
+
 ! Outstanding tasks
 
-<$list filter="[all[shadows+tiddlers]!has[draft.of]tag[task]!tag[done]!tag[waiting]!tag[later]!tag[planned]sort[created]]" template="TaskListTemplate"/>
+<$list filter="[all[shadows+tiddlers]!has[draft.of]tag[task]!tag[done]!tag[Waiting]!tag[later]!tag[planned]sort[created]]" template="TaskListTemplate"/>
 
 ! Waiting Tasks
 

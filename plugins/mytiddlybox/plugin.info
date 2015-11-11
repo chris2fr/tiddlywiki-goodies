@@ -1,9 +1,9 @@
 {
 	"title": "$:/plugins/chris2fr/mytiddlybox",
-	"description": "MyTiddlyBox - Utility Tiddlers I Often Use",
+	"description": "MyTiddlybox - Utility Tiddlers I Often Use",
 	"author": "Christopher Mann <christopher@mann.fr>",
 	"core-version": ">=5.0.0",
-	"list": "config usage readme ",
+	"list": "",
   "source": "https://github.com/chris2fr/tiddlywiki-my-tiddlybox",
-	"version": "0.0.1"
+	"version": "0.0.2"
 }
