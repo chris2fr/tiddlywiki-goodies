@@ -37,5 +37,3 @@ This list detects [tag[task]] and [tag[done]] tags.
 <$checkbox tag="done"> ~~<$link to={{!!title}}><$view field="title"/></$link>~~</$checkbox>
 
 </$list>
-
-
