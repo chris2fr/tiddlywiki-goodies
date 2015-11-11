@@ -1,0 +1,9 @@
+created: 20151101090943928
+modified: 20151109112805977
+title: TaskListTemplate
+type: text/vnd.tiddlywiki
+
+<$checkbox tag="done"/> [W<$checkbox tag="waiting"/>] [L<$checkbox tag="later"/>] [P<$checkbox tag="planned"/>] <$link to=<<currentTiddler>>><$view field="title"/></$link> (<$view field="asplugin"/> <$view field="planned"/>)
+"""
+
+"""

@@ -1,0 +1,10 @@
+created: 20151111073600577
+modified: 20151111080032544
+tags: $:/tags/ViewTemplate
+title: SubTiddlers
+type: text/vnd.tiddlywiki
+
+\define subTiddlers() <$list filter="[all[tiddlers+shadows]tag[$(currentTiddler)$]!title[$(currentTiddler)$]!prefix[$]]" template="$:/core/ui/TagTemplate" storyview="pop"/>
+@@background-color:blue;
+<<subTiddlers>>
+@@

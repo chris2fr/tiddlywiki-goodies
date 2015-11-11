@@ -1,0 +1,10 @@
+created: 20151111074927653
+modified: 20151111080235674
+tags: $:/tags/ViewTemplate
+title: BacklinkTiddlers
+type: text/vnd.tiddlywiki
+
+\define backTiddlers() <$list filter="[all[tiddlers+shadows]title[$(currentTiddler)$]backlinks[]!prefix[$]]" template="$:/core/ui/TagTemplate" storyview="pop"/>
+@@background-color:purple;
+<<backTiddlers>>
+@@
