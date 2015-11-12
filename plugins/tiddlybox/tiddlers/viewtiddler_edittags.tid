@@ -5,5 +5,17 @@ type: text/vnd.tiddlywiki
 \define showMeTheTag( )
 <$list filter="[title[$(currentTiddler)$]is[tiddler]]" template="$:/core/ui/EditTemplate/tags"/>
 \end
+\define targetTiddlerTags( )
+
+\end
 
 <<showMeTheTag>>
+
+---
+
+<$edit-text field="targetTiddler"/>
+
+<$button>
+Add
+<$action-sendmessage message="tm-add-tag" tiddler={{!!targetTiddler}} param={{!!title}}/>
+</$button>
