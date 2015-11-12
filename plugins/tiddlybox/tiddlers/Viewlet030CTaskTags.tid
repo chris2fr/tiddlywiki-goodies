@@ -1,11 +1,11 @@
 title: $:/plugins/chris2fr/tiddlybox/viewtemplate/Viewlet030CTaskTags
 type: text/vnd.tiddlywiki
 
-/define theShadow ( )
+\define theShadow ( )
 <$list filter="[title[$(currentTiddler)$]is[tiddler]]">
  <$checkbox tag="Important">{{{[all[tiddlers][Important]]||$:/core/ui/TagTemplate}}}</$checkbox> <$checkbox tag="Urgent">{{{[all[tiddlers][Urgent]]||$:/core/ui/TagTemplate}}}</$checkbox><$checkbox tag="Waiting">{{{[all[tiddlers][Waiting]]||$:/core/ui/TagTemplate}}}</$checkbox>
 </$list>
-/end
+\end
 
 @@background-color:yellow;
  <<theShadow>>
