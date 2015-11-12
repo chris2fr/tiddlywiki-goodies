@@ -3,7 +3,15 @@ type: text/vnd.tiddlywiki
 
 !TiddlyBox Plugin by HowWowNow Changelog
 
-!!Release 0.0.7
+!!Release 0.0.9
+
+2015-11-12
+
+* Only show Important, Urgent, Waiting for non-shadows
+* Show ''//Shadow//'' for all Shadow Tiddlers
+* Only show checkboxes for sub-wikis that are not shadows
+
+!!Release 0.0.8
 
 2015-11-12
 
