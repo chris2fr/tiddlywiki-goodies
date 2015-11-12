@@ -2,6 +2,8 @@ tags: $:/tags/ViewTemplate
 title: $:/plugins/chris2fr/tiddlybox/viewtiddler/edittags
 type: text/vnd.tiddlywiki
 
-<$list filter="is[tiddler]">
-<$edit-text field="tags"/>
-</$list>
+\define showMeTheTag( )
+<$list filter="[title[$(currentTiddler)$]is[tiddler]]" template="$:/core/ui/EditTemplate/tags"/>
+\end
+
+<<showMeTheTag>>
