@@ -10,7 +10,9 @@ type: text/vnd.tiddlywiki
 <$list filter="[title[$(currentTiddler)$]!is[tiddler]]">
 @@background-color:grey;
 Shadow
+
 ---
+
 @@
 </$list>
 \end
