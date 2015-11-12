@@ -7,6 +7,12 @@ type: text/vnd.tiddlywiki
 
 2015-11-12
 
+* Got rid of task tag on TaskList for Important, Urgent, Waiting.
+
+!!Release 0.0.7
+
+2015-11-12
+
 * Added features to the sidebare
 * Wrote new Tiddler for PurgeServerConnections
 
