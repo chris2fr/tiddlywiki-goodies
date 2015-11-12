@@ -1,9 +1,19 @@
 title: $:/plugins/chris2fr/tiddlybox/viewtiddler/edittags
 type: text/vnd.tiddlywiki
 
-<$edit-text field="targetTiddler" size="16"/>
-<$fieldmangler tiddler={{!!targetTiddler}}>
-<$button message="tm-add-tag" param={{!!title}}>
-Link
-</$button>
+/define noShadowAddTag( targetTiddler targetTag )
+<$fieldmangler tiddler="""$(targetTiddler)$""">
+<$list filter="""[title[$(targetTiddler)$]is[tiddler]]""">
+<$action-sendmessage $message="tm-add-tag" $param="""$(targetTag)$"""/>
+</list>
 </$fieldmangler>
+/end
+
+
+<$edit-text field="targetTiddler" size="16"/>
+<$button>
+<vars targetTiddler={{!!targetTiddler}} targetTag={{!!title}}>
+Link
+<<noShadowAddTag targetTiddler:"""$(targetTiddler)$""" targetTag:"""$(targetTag)$""" >>
+</vars>
+</$button>
