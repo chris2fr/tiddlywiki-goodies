@@ -1,0 +1,5 @@
+title: $:/config/chris2fr/tiddlybox/stubs/sidebar/TableOfContents
+list-after: $:/core/ui/SideBar/Open
+caption: Contents
+
+{{TableOfContents}}

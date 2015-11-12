@@ -1,7 +1,6 @@
-created: 20151029113521099
-modified: 20151111090646417
 title: TaskList
 type: application/x-tiddler
+caption: TaskList
 
 This list detects [tag[task]] and [tag[done]] tags.
 
