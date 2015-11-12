@@ -12,7 +12,7 @@ add
 <$set name="targetTiddler" value={{!!targettiddler}}>
 <<addTag targetTiddler:"""$(targetTiddler)$""" targetTag:"""$(currentTiddler)$""">>
 </$set>
-<$/button>
+</$button>
 \end
 
 @@background-color:blue;
