@@ -6,13 +6,6 @@ type: text/vnd.tiddlywiki
 <$list filter="[all[tiddlers]tag[$(currentTiddler)$]!title[$(currentTiddler)$]!prefix[$]]" template="$:/plugins/chris2fr/tiddlybox/viewtemplate/CheckboxTagTemplate" storyview="pop"/>
 </$set>
 <$list filter="[all[shadows]tag[$(currentTiddler)$]!title[$(currentTiddler)$]!prefix[$]]" template="$:/core/ui/TagTemplate" storyview="pop"/>
-<$edit-text field="targettiddler"/>
-<$button>
-add
-<$set name="targetTiddler" value={{!!targettiddler}}>
-<<addTag targetTiddler:"""$(targetTiddler)$""" targetTag:"""$(currentTiddler)$""">>
-</$set>
-</$button>
 \end
 
 @@background-color:blue;
