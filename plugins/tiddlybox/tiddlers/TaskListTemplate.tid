@@ -3,7 +3,7 @@ modified: 20151111090712459
 title: TaskListTemplate
 type: text/vnd.tiddlywiki
 
-D<$checkbox tag="done"/> I<$checkbox tag="Important"/> U<$checkbox tag="Urgent"/> W<$checkbox tag="Waiting"/> L<$checkbox tag="later"/> P<$checkbox tag="planned"/> <$view field="planned"/> <$link to=<<currentTiddler>>><$view field="title"/></$link> <$view field="asplugin"/>
+D<$checkbox tag="done"/> I<$checkbox tag="Important"/> U<$checkbox tag="Urgent"/> W<$checkbox tag="Waiting"/> L<$checkbox tag="Later"/> P<$checkbox tag="Planned"/> <$view field="Planned"/> <$link to=<<currentTiddler>>><$view field="title"/></$link> <$view field="asplugin"/>
 """
 
 """
