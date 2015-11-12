@@ -1,7 +1,8 @@
 title: $:/plugins/chris2fr/tiddlybox/viewtemplate/Viewlet020CBackLinks
 type: text/vnd.tiddlywiki
 
-\define backTiddlers( parent ) <$set name="parent" value="""$(parent)$"""><$list filter="[all[tiddlers]title[$(currentTiddler)$]backlinks[]!prefix[$]!tag[$(currentTiddler)$]]" template="$:/plugins/chris2fr/tiddlybox/viewtemplate/CheckboxTagTemplate" storyview="pop"/></$set><$list filter="[all[shadows]title[$(currentTiddler)$]backlinks[]!prefix[$]!tag[$(currentTiddler)$]]" template="$:/core/ui/TagTemplate" storyview="pop"/>
+\define backTiddlers( parent ) <$set name="parent" value="""$(parent)$"""><$list filter="[all[tiddlers]title[$(currentTiddler)$]backlinks[]!prefix[$]!tag[$(currentTiddler)$]is[tiddler]]" template="$:/plugins/chris2fr/tiddlybox/viewtemplate/CheckboxTagTemplate" storyview="pop"/></$set><$list filter="[all[shadows]title[$(currentTiddler)$]backlinks[]!prefix[$]!tag[$(currentTiddler)$]!is[tiddler]]" template="$:/core/ui/TagTemplate" storyview="pop"/>
+
 @@background-color:purple;
 <$set name="parent" value={{!!title}}>
  <<backTiddlers parent:"""$(parent)$""">>

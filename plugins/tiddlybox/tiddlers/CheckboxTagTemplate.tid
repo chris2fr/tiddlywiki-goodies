@@ -1,0 +1,6 @@
+tags:
+title: $:/plugins/chris2fr/tiddlybox/viewtemplate/CheckboxTagTemplate
+
+\define subSubTiddlers( parent ) <$checkbox tiddler={{!!title}} tag="""$(parent)$"""/>{{||$:/core/ui/TagTemplate}}
+
+ <<subSubTiddlers parent:"""$(parent)$""">>
