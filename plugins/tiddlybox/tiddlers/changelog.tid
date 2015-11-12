@@ -8,7 +8,7 @@ type: text/vnd.tiddlywiki
 2015-11-12
 
 * System for converting backlinks to sublinks
-* Added input box for fast adding of Tiddler Jumps
+* Added input box for fast adding of Tiddler Jumps (may lead to inadvertant unshadowing)
 
 !!Release 0.0.9
 
