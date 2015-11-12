@@ -2,4 +2,4 @@ caption: Contents
 list-after: $:/core/ui/SideBar/Open
 title: $:/config/chris2fr/tiddlybox/stubs/sidebar/TableOfContents
 
-{{TableOfContents}}
+{{||TableOfContents}}
