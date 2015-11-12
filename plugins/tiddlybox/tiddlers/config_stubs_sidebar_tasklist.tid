@@ -1,5 +1,5 @@
 caption: Tasks
-list-after: TableOfContents
+list-after: $:/core/ui/SideBar/Recent
 title: $:/config/chris2fr/tiddlybox/stubs/sidebar/TaskList
 
 {{||TaskList}}
