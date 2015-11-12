@@ -1,5 +1,5 @@
-title: $:/config/chris2fr/tiddlybox/stubs/sidebar/TaskList
-list-after: $:/core/ui/SideBar/Open
 caption: Tasks
+list-after: $:/core/ui/SideBar/Open
+title: $:/config/chris2fr/tiddlybox/stubs/sidebar/TaskList
 
 {{TaskList}}

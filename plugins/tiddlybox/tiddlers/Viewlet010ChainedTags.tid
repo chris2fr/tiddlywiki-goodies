@@ -1,4 +1,4 @@
-title: $:/plugins/chris2fr/tiddlybox/Viewlet010ChainedTags
+title: $:/plugins/chris2fr/tiddlybox/stubs/viewtemplate/Viewlet010ChainedTags
 type: text/vnd.tiddlywiki
 
 \define subTiddlers() <$list filter="[all[tiddlers+shadows]tag[$(currentTiddler)$]!title[$(currentTiddler)$]!prefix[$]]" template="$:/core/ui/TagTemplate" storyview="pop"/>
