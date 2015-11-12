@@ -6,5 +6,5 @@ type: text/vnd.tiddlywiki
 
 \define backTiddlers() <$list filter="[all[tiddlers+shadows]title[$(currentTiddler)$]backlinks[]!prefix[$]]" template="$:/core/ui/TagTemplate" storyview="pop"/>
 @@background-color:purple;
-<<backTiddlers>>
+ <<backTiddlers>>
 @@

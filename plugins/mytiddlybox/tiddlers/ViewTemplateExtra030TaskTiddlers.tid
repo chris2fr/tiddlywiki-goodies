@@ -6,5 +6,5 @@ title: $:/plugins/chris2fr/mytiddlybox/ViewTemplateExtra030TaskTiddlers
 type: text/vnd.tiddlywiki
 
 @@background-color:yellow;
-{{{[[Important]]||$:/core/ui/TagTemplate}}} {{{[[Urgent]]||$:/core/ui/TagTemplate}}} {{{[[Waiting]]||$:/core/ui/TagTemplate}}}
+ <$checkbox tag="Important">{{{[all[tiddlers][Important]]||$:/core/ui/TagTemplate}}}</$checkbox> <$checkbox tag="Urgent">{{{[all[tiddlers][Urgent]]||$:/core/ui/TagTemplate}}}</$checkbox><$checkbox tag="Waiting">{{{[all[tiddlers][Waiting]]||$:/core/ui/TagTemplate}}}</$checkbox>
 @@

@@ -1,0 +1,85 @@
+author: Christopher Mann <christopher@mann.fr>
+core-version: >=5.0.0
+dependents:
+description: MyTiddlybox - Utility Tiddlers I Often Use
+list:
+plugin-type: plugin
+revision: 0
+source: https://github.com/chris2fr/tiddlywiki-my-tiddlybox
+title: $:/plugins/chris2fr/mytiddlybox
+type: application/json
+version: 0.0.3
+
+{
+    "tiddlers": {
+        "RenameTags": {
+            "created": "20140114170004978",
+            "creator": "Stephan Hradek",
+            "description": "A great trick invented by Alberto Molina to search and replace tags.",
+            "modified": "20141106170635901",
+            "modifier": "Stephan Hradek",
+            "tags": "toc",
+            "title": "RenameTags",
+            "type": "text/vnd.tiddlywiki",
+            "text": "This great trick was shown to the tiddlywiki google group by [[Alberto Molina|https://groups.google.com/forum/#!topic/tiddlywiki/OCntQ79DuwM]]. I enhanced it a bit.\n\n|!Search tag: | <$edit-text tiddler=\"$:/temp/RenameTags/search\" tag=\"input\" type=\"text\"/> |\n|!Replace by: | <$edit-text tiddler=\"$:/temp/RenameTags/replace\" tag=\"input\" type=\"text\"/> |\n\n---\n<$reveal type=\"nomatch\" text=\"\" state=\"$:/temp/RenameTags/replace\">\n\n!First step\n!!//Apply the tag <$tiddler tiddler={{$:/temp/RenameTags/replace}}><$transclude tiddler=\"$:/core/ui/TagTemplate\"/></$tiddler> to the following tiddlers//\n<$list filter=\"[!has[draft.of]tag{$:/temp/RenameTags/search}!tag{$:/temp/RenameTags/replace}sort[created]]\">\n<$checkbox tag={{$:/temp/RenameTags/replace}}> <$link to={{!!title}}><$view field=\"title\"/></$link></$checkbox><br/>\n</$list>\n</$reveal>\n\n<$reveal type=\"nomatch\" text=\"\" state=\"$:/temp/RenameTags/search\">\n\n!Second step\n!!//Remove the tag <$tiddler tiddler={{$:/temp/RenameTags/search}}><$transclude tiddler=\"$:/core/ui/TagTemplate\"/></$tiddler> from the following tiddlers//\n<$list filter=\"[!has[draft.of]tag{$:/temp/RenameTags/search}tag{$:/temp/RenameTags/replace}sort[created]]\">\n<$checkbox tag={{$:/temp/RenameTags/search}}> ~~<$link to={{!!title}}><$view field=\"title\"/></$link>~~</$checkbox><br/>\n</$list>\n</$reveal>\n"
+        },
+        "TableOfContents": {
+            "caption": "{{$:/language/SideBar/Contents/Caption}}",
+            "created": "20140809114010378",
+            "list": "HelloThere Learning [[Working with TiddlyWiki]] [[Customise TiddlyWiki]] Features Languages Editions Plugins Platforms Reference Community About",
+            "list-after": "$:/core/ui/SideBar/Open",
+            "modified": "20151108105326437",
+            "tags": "$:/tags/SideBar",
+            "title": "TableOfContents",
+            "type": "text/vnd.tiddlywiki",
+            "text": "<div class=\"tc-table-of-contents\">\n\n<<toc-selective-expandable 'TableOfContents'>>\n\n</div>\n"
+        },
+        "TaskList": {
+            "created": "20151029113521099",
+            "modified": "20151111090646417",
+            "title": "TaskList",
+            "type": "application/x-tiddler",
+            "text": "This list detects [tag[task]] and [tag[done]] tags.\n\n! Important Tasks\n\n<$list filter=\"[all[shadows+tiddlers]!has[draft.of]tag[task]!tag[done]tag[Important]sort[created]]\" template=\"TaskListTemplate\"/>\n\n! Urgent Tasks\n\n<$list filter=\"[all[shadows+tiddlers]!has[draft.of]tag[task]!tag[done]tag[Urgent]sort[created]]\" template=\"TaskListTemplate\"/>\n\n! Outstanding tasks\n\n<$list filter=\"[all[shadows+tiddlers]!has[draft.of]tag[task]!tag[done]!tag[Waiting]!tag[later]!tag[planned]sort[created]]\" template=\"TaskListTemplate\"/>\n\n! Waiting Tasks\n\n<$list filter=\"[all[shadows+tiddlers]!has[draft.of]tag[task]!tag[done]tag[waiting]sort[created]]\" template=\"TaskListTemplate\"/>\n\n! Later Tasks\n\n<$list filter=\"[all[shadows+tiddlers]!has[draft.of]tag[task]!tag[done]tag[later]sort[created]]\" template=\"TaskListTemplate\"/>\n\n\n! Planned Tasks\n\n<$list filter=\"[all[shadows+tiddlers]!has[draft.of]tag[task]!tag[done]tag[planned]sort[created]]\" template=\"TaskListTemplate\"/>\n\n! Completed tasks\n\n<$list filter=\"[all[shadows+tiddlers]!has[draft.of]tag[task]tag[done]sort[created]]\">\n\n<$checkbox tag=\"done\"> ~~<$link to={{!!title}}><$view field=\"title\"/></$link>~~</$checkbox>\n\n</$list>\n"
+        },
+        "TaskListTemplate": {
+            "created": "20151101090943928",
+            "modified": "20151111090712459",
+            "title": "TaskListTemplate",
+            "type": "text/vnd.tiddlywiki",
+            "text": "D<$checkbox tag=\"done\"/> I<$checkbox tag=\"Important\"/> U<$checkbox tag=\"Urgent\"/> W<$checkbox tag=\"Waiting\"/> L<$checkbox tag=\"later\"/> P<$checkbox tag=\"planned\"/> <$view field=\"planned\"/> <$link to=<<currentTiddler>>><$view field=\"title\"/></$link> <$view field=\"asplugin\"/>\n\"\"\"\n\n\"\"\"\n"
+        },
+        "$:/plugins/chris2fr/mytiddlybox/ViewTemplateExtra010SubTiddlers": {
+            "created": "20151111073600577",
+            "modified": "20151111080032544",
+            "tags": "$:/tags/ViewTemplate",
+            "title": "$:/plugins/chris2fr/mytiddlybox/ViewTemplateExtra010SubTiddlers",
+            "type": "text/vnd.tiddlywiki",
+            "text": "\\define subTiddlers() <$list filter=\"[all[tiddlers+shadows]tag[$(currentTiddler)$]!title[$(currentTiddler)$]!prefix[$]]\" template=\"$:/core/ui/TagTemplate\" storyview=\"pop\"/>\n@@background-color:blue;\n <<subTiddlers>>\n@@\n"
+        },
+        "$:/plugins/chris2fr/mytiddlybox/ViewTemplateExtra020BacklinkTiddlers": {
+            "created": "20151111074927653",
+            "modified": "20151111080235674",
+            "tags": "$:/tags/ViewTemplate",
+            "title": "$:/plugins/chris2fr/mytiddlybox/ViewTemplateExtra020BacklinkTiddlers",
+            "type": "text/vnd.tiddlywiki",
+            "text": "\\define backTiddlers() <$list filter=\"[all[tiddlers+shadows]title[$(currentTiddler)$]backlinks[]!prefix[$]]\" template=\"$:/core/ui/TagTemplate\" storyview=\"pop\"/>\n@@background-color:purple;\n <<backTiddlers>>\n@@\n"
+        },
+        "$:/plugins/chris2fr/mytiddlybox/ViewTemplateExtra030TaskTiddlers": {
+            "created": "20151111084638512",
+            "list-after": "BacklinkTiddlers",
+            "modified": "20151111090351552",
+            "tags": "$:/tags/ViewTemplate",
+            "title": "$:/plugins/chris2fr/mytiddlybox/ViewTemplateExtra030TaskTiddlers",
+            "type": "text/vnd.tiddlywiki",
+            "text": "@@background-color:yellow;\n <$checkbox tag=\"Important\">{{{[[Important]]||$:/core/ui/TagTemplate}}}</$checkbox> <$checkbox tag=\"Urgent\">{{{[[Urgent]]||$:/core/ui/TagTemplate}}}</$checkbox><$checkbox tag=\"Waiting\">{{{[[Waiting]]||$:/core/ui/TagTemplate}}}</$checkbox>\n@@\n"
+        },
+        "WikiList": {
+            "created": "20151102111920168",
+            "modified": "20151109151625358",
+            "tags": "",
+            "title": "WikiList",
+            "type": "text/vnd.tiddlywiki",
+            "text": "[ext[.]]\n[ext[..]]\n"
+        }
+    }
+}
