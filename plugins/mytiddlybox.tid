@@ -8,7 +8,7 @@ revision: 0
 source: https://github.com/chris2fr/tiddlywiki-my-tiddlybox
 title: $:/plugins/chris2fr/mytiddlybox
 type: application/json
-version: 0.0.3
+version: 0.0.4
 
 {
     "tiddlers": {

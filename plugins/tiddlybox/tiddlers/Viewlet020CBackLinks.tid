@@ -1,7 +1,7 @@
 created: 20151111074927653
 modified: 20151111080235674
 tags: $:/tags/ViewTemplate
-title: $:/plugins/chris2fr/tiddlybox/ViewTemplateExtra020BacklinkTiddlers
+title: $:/plugins/chris2fr/tiddlybox/Viewlet020CBackLinks
 type: text/vnd.tiddlywiki
 
 \define backTiddlers() <$list filter="[all[tiddlers+shadows]title[$(currentTiddler)$]backlinks[]!prefix[$]]" template="$:/core/ui/TagTemplate" storyview="pop"/>
