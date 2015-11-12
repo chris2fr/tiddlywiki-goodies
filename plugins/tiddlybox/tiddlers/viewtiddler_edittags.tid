@@ -15,7 +15,6 @@ type: text/vnd.tiddlywiki
 
 <$edit-text field="targetTiddler"/>
 
-<$button>
+<$button to={{!!targetTiddler}} message="tm-add-tag" param={{!!title}}>
 Add
-<$action-sendmessage message="tm-add-tag" tiddler={{!!targetTiddler}} param={{!!title}}/>
 </$button>
