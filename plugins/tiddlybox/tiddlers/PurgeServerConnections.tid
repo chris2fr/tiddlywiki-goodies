@@ -3,6 +3,8 @@ type: text/vnd.tiddlywiki
 tags: TiddlyBox
 
 <$list filter="[prefix[$:/temp/ServerConnection]]"/>
+
 <$button>
+Purge
 <$action-deletetiddler $filter="[prefix[$:/temp/ServerConnection]]"/>
 </$button>
