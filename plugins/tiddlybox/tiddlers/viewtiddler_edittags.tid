@@ -2,19 +2,9 @@ tags: $:/tags/ViewTemplate
 title: $:/plugins/chris2fr/tiddlybox/viewtiddler/edittags
 type: text/vnd.tiddlywiki
 
-\define showMeTheTag( )
-<$list filter="[title[$(currentTiddler)$]is[tiddler]]" template="$:/core/ui/EditTemplate/tags"/>
-\end
-\define targetTiddlerTags( )
-
-\end
-
-<<showMeTheTag>>
-
----
-
 <$edit-text field="targetTiddler"/>
-
-<$button to={{!!targetTiddler}} message="tm-add-tag" param={{!!title}}>
-Add
+<$fieldmangler tiddler={{!!targetTiddler}}>
+<$button message="tm-add-tag" param={{!!title}}>
+Add Sub
 </$button>
+</$fieldmangler>
