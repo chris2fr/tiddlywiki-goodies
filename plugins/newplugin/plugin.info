@@ -1,0 +1,9 @@
+{
+	"title": "$:/plugins/chris2fr/newplugin",
+	"description": "NewPlugin - I am New and Empty (Test for PluginLibrary Refresh)",
+	"author": "Christopher Mann <christopher@mann.fr>",
+	"core-version": ">=5.0.0",
+	"list": "",
+  "source": "https://github.com/chris2fr/tiddlywiki-my-tiddlybox",
+	"version": "0.0.1"
+}
