@@ -7,11 +7,11 @@ This list detects [tag[task]] and [tag[done]] tags.
 
 ! Important Tasks
 
-<$list filter="[all[shadows+tiddlers]!has[draft.of]tag[task]!tag[done]tag[Important]sort[created]]" template="TaskListTemplate"/>
+<$list filter="[all[shadows+tiddlers]!has[draft.of]!tag[done]tag[Important]sort[created]]" template="TaskListTemplate"/>
 
 ! Urgent Tasks
 
-<$list filter="[all[shadows+tiddlers]!has[draft.of]tag[task]!tag[done]tag[Urgent]sort[created]]" template="TaskListTemplate"/>
+<$list filter="[all[shadows+tiddlers]!has[draft.of]!tag[done]tag[Urgent]sort[created]]" template="TaskListTemplate"/>
 
 ! Outstanding tasks
 
@@ -19,7 +19,7 @@ This list detects [tag[task]] and [tag[done]] tags.
 
 ! Waiting Tasks
 
-<$list filter="[all[shadows+tiddlers]!has[draft.of]tag[task]!tag[done]tag[waiting]sort[created]]" template="TaskListTemplate"/>
+<$list filter="[all[shadows+tiddlers]!has[draft.of]!tag[done]tag[waiting]sort[created]]" template="TaskListTemplate"/>
 
 ! Later Tasks
 
