@@ -1,6 +1,7 @@
+caption: TaskList
+tags: TiddlyBox
 title: TaskList
 type: application/x-tiddler
-caption: TaskList
 
 This list detects [tag[task]] and [tag[done]] tags.
 
