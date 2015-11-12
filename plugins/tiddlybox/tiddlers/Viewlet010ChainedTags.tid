@@ -1,7 +1,7 @@
 title: $:/plugins/chris2fr/tiddlybox/viewtemplate/Viewlet010ChainedTags
 type: text/vnd.tiddlywiki
 
-\define subTiddlers( parent ) <$set name="parent" value="""$(parent)$"""><$list filter="[all[tiddlers+shadows]tag[$(currentTiddler)$]!title[$(currentTiddler)$]!prefix[$]]" template="$:/plugins/chris2fr/tiddlybox/viewtemplate/Viewlet010ChangedTagsTemplate" storyview="pop"/></$set>
+\define subTiddlers( parent ) <$set name="parent" value="""$(parent)$"""><$list filter="[all[tiddlers]tag[$(currentTiddler)$]!title[$(currentTiddler)$]!prefix[$]]" template="$:/plugins/chris2fr/tiddlybox/viewtemplate/Viewlet010ChangedTagsTemplate" storyview="pop"/></$set><$list filter="[all[tiddlers]tag[$(currentTiddler)$]!title[$(currentTiddler)$]!prefix[$]]" template="$:/core/ui/TagTemplate" storyview="pop"/>
 
 @@background-color:blue;
 <$set name="parent" value={{!!title}}>
