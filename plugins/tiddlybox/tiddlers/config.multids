@@ -1,12 +1,11 @@
-tags: Chris2Fr/AsPlugout
 title: $:/config/chris2fr/tiddlybox/
 type: text/vnd.tiddlywiki
 
-stubs:{{[[stubs/tiddler]]}}\n\n{{[[stubs/sidebar]]}}
-stubs/tiddler:@@background-color:blue;<$checkbox tag="$:/tags/SideBar" tiddler="$:/config/chris2fr/tiddlybox/stubs/tidler/Viewlet010ChainedTags"/> Include [[$:/plugins/chris2fr/tiddlybox/Viewlet010ChainedTags|Viewlet010ChainedTags]] in Tidders to descend into sub-tiddlers.@@ @@background-color:purple; \n\n<$checkbox tag="$:/tags/SideBar" tiddler="$:/config/chris2fr/tiddlybox/stubs/tidler/Viewlet010ChainedTags"/> Include [[$:/plugins/chris2fr/tiddlybox/Viewlet010ChainedTags|Viewlet020CBackLinks]] in Tidders to jump to other tiddlers.@@ @@background-color:yellow; \n\n<$checkbox tag="$:/tags/SideBar" tiddler="$:/config/chris2fr/tiddlybox/stubs/tidler/Viewlet010ChainedTags"/> Include [[$:/plugins/chris2fr/tiddlybox/Viewlet010ChainedTags|Viewlet030CTaskTags]] in Tidders to keep focused.@@ \n\n
-stubs/tiddler/Viewlet010ChainedTags:{{{$:/plugins/chris2fr/tiddlybox/Viewlet010ChainedTags}}}
-stubs/tiddler/Viewlet020CBackLinks:{{{$:/plugins/chris2fr/tiddlybox/Viewlet020CBackLinks}}}
-stubs/tiddler/Viewlet030CTaskTags:{{{$:/plugins/chris2fr/tiddlybox/Viewlet030CTaskTags}}}
-stubs/sidebar:<$checkbox tag="$:/tags/SideBar" tiddler="$:/config/chris2fr/tiddlybox/stubs/sidebar/TableOfContents"/> Include TableOfContents ~SideBar. Otherwise, just use as a normal tiddler.\n\n<$checkbox tag="$:/tags/SideBar" tiddler="$:/config/chris2fr/tiddlybox/stubs/sidebar/TaskList"/> Include TaskList ~SideBar. Otherwise, just use as a normal tiddler.
-stubs/sidebar/TaskList:{{{TaskList}}}
-stubs/sidebar/TableOfContents:{{{TableOfContents}}}
+stubs: {{[[$:/config/chris2fr/tiddlybox/stubs/tiddler]]}}<br/>{{[[$:/config/chris2fr/tiddlybox/stubs/sidebar]]}}
+stubs/tiddler: @@background-color:blue;<$checkbox tag="$:/tags/SideBar" tiddler="$:/config/chris2fr/tiddlybox/stubs/tidler/Viewlet010ChainedTags"/> Include [[$:/plugins/chris2fr/tiddlybox/Viewlet010ChainedTags|Viewlet010ChainedTags]] in Tidders to descend into sub-tiddlers.@@ @@background-color:purple; <br/><$checkbox tag="$:/tags/SideBar" tiddler="$:/config/chris2fr/tiddlybox/stubs/tidler/Viewlet010ChainedTags"/> Include [[$:/plugins/chris2fr/tiddlybox/Viewlet010ChainedTags|Viewlet020CBackLinks]] in Tidders to jump to other tiddlers.@@ @@background-color:yellow; <br/><$checkbox tag="$:/tags/SideBar" tiddler="$:/config/chris2fr/tiddlybox/stubs/tidler/Viewlet010ChainedTags"/> Include [[$:/plugins/chris2fr/tiddlybox/Viewlet010ChainedTags|Viewlet030CTaskTags]] in Tidders to keep focused.@@ \n\n
+stubs/tiddler/Viewlet010ChainedTags: {{{$:/plugins/chris2fr/tiddlybox/Viewlet010ChainedTags}}}
+stubs/tiddler/Viewlet020CBackLinks: {{{$:/plugins/chris2fr/tiddlybox/Viewlet020CBackLinks}}}
+stubs/tiddler/Viewlet030CTaskTags: {{{$:/plugins/chris2fr/tiddlybox/Viewlet030CTaskTags}}}
+stubs/sidebar: <$checkbox tag="$:/tags/SideBar" tiddler="$:/config/chris2fr/tiddlybox/stubs/sidebar/TableOfContents"/> Include TableOfContents ~SideBar. Otherwise, just use as a normal tiddler.<br/><$checkbox tag="$:/tags/SideBar" tiddler="$:/config/chris2fr/tiddlybox/stubs/sidebar/TaskList"/> Include TaskList ~SideBar. Otherwise, just use as a normal tiddler.
+stubs/sidebar/TaskList: {{{TaskList}}}
+stubs/sidebar/TableOfContents: {{{TableOfContents}}}

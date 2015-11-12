@@ -3,7 +3,7 @@
 	"description": "TiddlyBox - Utility Tiddlers I Often Use",
 	"author": "Christopher Mann <christopher@mann.fr>",
 	"core-version": ">=5.0.0",
-	"list": "readme changelog",
+	"list": "readme config changelog",
   "source": "https://github.com/chris2fr/tiddlywiki-my-tiddlybox",
 	"version": "0.0.5a"
 }
