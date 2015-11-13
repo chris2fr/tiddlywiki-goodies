@@ -4,7 +4,10 @@ type: text/vnd.tiddlywiki
 \define linkTargetToArcher( archer target )
 <$fieldmangler tiddler="""$(target)$""">
 <$button>
-+ <$action-sendmessage $message="tm-add-tag" $param="""$(archer)$"""/>
++
+<$list filter="[title[$(target)$]is[tiddler]]">
+<$action-sendmessage $message="tm-add-tag" $param="""$(archer)$"""/>
+</$list>
 </$button>
 </$fieldmangler>
 \end
