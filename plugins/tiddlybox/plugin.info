@@ -5,5 +5,5 @@
 	"core-version": ">=5.0.0",
 	"list": "readme config changelog",
   "source": "https://github.com/chris2fr/tiddlywiki-my-tiddlybox",
-	"version": "0.0.10"
+	"version": "0.0.10b2"
 }
