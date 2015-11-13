@@ -12,4 +12,5 @@ type: text/vnd.tiddlywiki
 <$set name="parent" value={{!!title}}>
  <<subTiddlers parent:"""$(parent)$""">>
 </$set>
+{{||$:/plugins/chris2fr/tiddlybox/viewtiddler/edittags}}
 @@

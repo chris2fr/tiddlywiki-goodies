@@ -1,9 +1,15 @@
 title: $:/plugins/chris2fr/tiddlybox/viewtiddler/edittags
 type: text/vnd.tiddlywiki
 
-<$edit-text field="targetTiddler" size="16"/>
-<$fieldmangler tiddler={{!!targetTiddler}}>
-<$button message="tm-add-tag" param={{!!title}}>
-Link
+\define linkTargetToArcher( archer target )
+<$fieldmangler tiddler="""$(target)$""">
+<$button>
++ <$action-sendmessage $message="tm-add-tag" $param="""$(archer)$"""/>
 </$button>
 </$fieldmangler>
+\end
+
+<$edit-text tiddler="$:/temp/chris2fr/tiddlybox/viewtiddler/edittags/targetTiddler" tag="input" type="text" size="12"/>
+<$vars target={{$:/temp/chris2fr/tiddlybox/viewtiddler/edittags/targetTiddler}} archer={{!!title}}>
+<<linkTargetToArcher archer:"""$(archer)$""" target:"""$(target)$""">>
+</$vars>
