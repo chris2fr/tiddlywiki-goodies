@@ -1,0 +1,6 @@
+title: $:/config/howwownow/goodies/stubs
+type: text/vnd.tiddlywiki
+
+{{$:/config/howwownow/goodies/stubs/sidebar}}
+
+{{$:/config/howwownow/goodies/stubs/viewtemplate}}

@@ -1,0 +1,19 @@
+title: $:/config/howwownow/goodies/stubs/viewtemplate
+type: text/vnd.tiddlywiki
+
+Filter condition to show Diff button <$edit-text tiddler="$:/config/howwownow/goodies/diffshadow/RequiredField" tag="input" type="text" size="12" default="plugout"/>
+
+@@background-color:lightblue;
+<$checkbox tag="$:/tags/ViewTemplate" tiddler="$:/config/howwownow/goodies/stubs/viewtemplate/Viewlet010ChainedTags"/>
+Include [[Viewlet010ChainedTags|$:/plugins/howwownow/goodies/viewtemplate/Viewlet010ChainedTags]] in Tidders to descend into sub-tiddlers.
+@@
+
+@@background-color:pink;
+<$checkbox tag="$:/tags/ViewTemplate" tiddler="$:/config/howwownow/goodies/stubs/viewtemplate/Viewlet020CBackLinks"/>
+Include [[Viewlet020CBackLinks|$:/plugins/howwownow/goodies/viewtemplate/Viewlet010ChainedTags]] in Tidders to jump to other tiddlers.
+@@
+
+@@background-color:lightyellow;
+<$checkbox tag="$:/tags/ViewTemplate" tiddler="$:/config/howwownow/goodies/stubs/viewtemplate/Viewlet030CTaskTags"/>
+Include [[Viewlet030CTaskTags|$:/plugins/howwownow/goodies/viewtemplate/Viewlet010ChainedTags]] in Tidders to keep focused.
+@@

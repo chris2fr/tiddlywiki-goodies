@@ -1,9 +1,9 @@
-title: $:/plugins/chris2fr/tiddlybox/viewtemplate/Viewlet010ChainedTags
+title: $:/plugins/howwownow/goodies/viewtemplate/Viewlet010ChainedTags
 type: text/vnd.tiddlywiki
 
 \define subTiddlers( parent )
 <$set name="parent" value="""$(parent)$""">
-<$list filter="[all[tiddlers]tag[$(currentTiddler)$]!title[$(currentTiddler)$]!prefix[$]]" template="$:/plugins/chris2fr/tiddlybox/viewtemplate/CheckboxTagTemplate" storyview="pop"/>
+<$list filter="[all[tiddlers]tag[$(currentTiddler)$]!title[$(currentTiddler)$]!prefix[$]]" template="$:/plugins/howwownow/goodies/viewtemplate/CheckboxTagTemplate" storyview="pop"/>
 </$set>
 <$list filter="[all[shadows]tag[$(currentTiddler)$]!title[$(currentTiddler)$]!prefix[$]]" template="$:/core/ui/TagTemplate" storyview="pop"/>
 \end
@@ -12,6 +12,6 @@ type: text/vnd.tiddlywiki
 <$set name="parent" value={{!!title}}>
  <<subTiddlers parent:"""$(parent)$""">>
 </$set>
-{{||$:/plugins/chris2fr/tiddlybox/viewtiddler/edittags}}
-{{||$:/plugins/chris2fr/tiddlybox/viewtiddler/diffshadow}}
+{{||$:/plugins/howwownow/goodies/viewtiddler/edittags}}
+{{||$:/plugins/howwownow/goodies/viewtiddler/diffshadow}}
 @@

@@ -1,0 +1,24 @@
+title: $:/plugins/howwownow/goodies/Configuration
+type: text/vnd.tiddlywiki
+
+\define renderSearchButton( label searchFilter )
+<$button>
+$label$
+<$action-setfield $tiddler="$:/temp/advancedsearch" text="""$searchFilter$"""/>
+<$action-navigate $to="$:/core/ui/AdvancedSearch/Filter"/>
+</$button>
+\end
+
+<$list filter="[all[tiddlers+shadows]tag[Goodies]]"/>
+
+
+
+{{$:/config/howwownow/goodies/stubs}}
+
+!! Migration to howwownow/goodies
+
+<$macrocall $name="renderSearchButton" label="Migrate Plugin Tiddlers" searchFilter="[prefix[$:/plugin/chris2fr/tiddlybox]]" />
+
+<$macrocall $name="renderSearchButton" label="Migrate Configuration Tiddlers" searchFilter="[prefix[$:/config/chris2fr/tiddlybox]]" />
+
+<$macrocall $name="renderSearchButton" label="Migrate Temp Tiddlers" searchFilter="[prefix[$:/temp/chris2fr/tiddlybox]]" />

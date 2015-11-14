@@ -1,7 +1,0 @@
-title: $:/config/chris2fr/tiddlybox/
-type: text/vnd.tiddlywiki
-
-diffshadow/RequiredField: plugout
-stubs/viewtemplate/Viewlet010ChainedTags: {{||$:/plugins/chris2fr/tiddlybox/viewtemplate/Viewlet010ChainedTags}}
-stubs/viewtemplate/Viewlet020CBackLinks: {{||$:/plugins/chris2fr/tiddlybox/viewtemplate/Viewlet020CBackLinks}}
-stubs/viewtemplate/Viewlet030CTaskTags: {{||$:/plugins/chris2fr/tiddlybox/viewtemplate/Viewlet030CTaskTags}}

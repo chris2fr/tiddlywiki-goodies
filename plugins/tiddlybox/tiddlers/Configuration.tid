@@ -1,6 +1,0 @@
-title: $:/plugins/chris2fr/tiddlybox/Configuration
-type: text/vnd.tiddlywiki
-
-<$list filter="[all[tiddlers+shadows]tag[TiddlyBox]]"/>
-
-{{||$:/plugins/chris2fr/tiddlybox/config}}

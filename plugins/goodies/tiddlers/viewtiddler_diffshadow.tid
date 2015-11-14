@@ -1,4 +1,4 @@
-title: $:/plugins/chris2fr/tiddlybox/viewtiddler/diffshadow
+title: $:/plugins/howwownow/goodies/viewtiddler/diffshadow
 type: text/vnd.tiddlywiki
 
 \define showDiff( source requiredField )
@@ -26,4 +26,4 @@ Undiff
 \end
 
 
-<$macrocall $name="showDiff" source={{!!title}} requiredField={{$:/config/chris2fr/tiddlybox/diffshadow/RequiredField}} />
+<$macrocall $name="showDiff" source={{!!title}} requiredField={{$:/config/howwownow/goodies/diffshadow/RequiredField}} />

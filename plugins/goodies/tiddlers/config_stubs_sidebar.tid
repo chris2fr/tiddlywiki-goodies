@@ -1,0 +1,10 @@
+title: $:/config/howwownow/goodies/stubs/sidebar
+type: text/vnd.tiddlywiki
+
+<$checkbox tag="$:/tags/SideBar" tiddler="$:/config/howwownow/goodies/stubs/sidebar/Configuration"/>
+Include Configuration ~SideBar. Otherwise, just use the control panel > plugins > ~Goodies > config panel.
+
+<$checkbox tag="$:/tags/SideBar" tiddler="$:/config/howwownow/goodies/stubs/sidebar/TableOfContents"/>
+Include TableOfContents ~SideBar. Otherwise, just use as a normal tiddler.
+
+<$checkbox tag="$:/tags/SideBar" tiddler="$:/config/howwownow/goodies/stubs/sidebar/TaskList"/> Include TaskList ~SideBar. Otherwise, just use as a normal tiddler.

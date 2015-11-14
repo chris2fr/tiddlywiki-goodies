@@ -1,6 +1,6 @@
 title: PurgeServerConnections
 type: text/vnd.tiddlywiki
-tags: TiddlyBox
+tags: Goodies
 
     <$list filter="[prefix[$:/temp/ServerConnection]]"/>
 

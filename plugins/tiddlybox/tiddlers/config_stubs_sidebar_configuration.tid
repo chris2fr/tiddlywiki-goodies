@@ -1,6 +1,0 @@
-caption: TiddlyBox
-list-after: $:/core/ui/SideBar/Recent
-title: $:/config/chris2fr/tiddlybox/stubs/sidebar/Configuration
-type: text/vnd.tiddlywiki
-
-{{||$:/plugins/chris2fr/tiddlybox/Configuration}}

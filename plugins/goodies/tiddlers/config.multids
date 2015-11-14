@@ -1,0 +1,7 @@
+title: $:/config/howwownow/goodies/
+type: text/vnd.tiddlywiki
+
+diffshadow/RequiredField: plugout
+stubs/viewtemplate/Viewlet010ChainedTags: {{||$:/plugins/howwownow/goodies/viewtemplate/Viewlet010ChainedTags}}
+stubs/viewtemplate/Viewlet020CBackLinks: {{||$:/plugins/howwownow/goodies/viewtemplate/Viewlet020CBackLinks}}
+stubs/viewtemplate/Viewlet030CTaskTags: {{||$:/plugins/howwownow/goodies/viewtemplate/Viewlet030CTaskTags}}
