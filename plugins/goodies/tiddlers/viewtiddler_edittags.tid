@@ -1,18 +1,14 @@
 title: $:/plugins/howwownow/goodies/viewtiddler/edittags
 type: text/vnd.tiddlywiki
 
-\define linkTargetToArcher( archer target )
-<$fieldmangler tiddler="""$(target)$""">
 <$button>
 +
-<$list filter="[title[$(target)$]is[tiddler]]">
-<$action-sendmessage $message="tm-add-tag" $param="""$(archer)$"""/>
-</$list>
-</$button>
+<$fieldmangler tiddler={{$:/temp/search}} >
+<$action-sendmessage $message="tm-add-tag" $param={{!!title}}/>
 </$fieldmangler>
-\end
+</$button>
 
-<$edit-text tiddler="$:/temp/howwownow/goodies/viewtiddler/edittags/targetTiddler" tag="input" type="text" size="12" default=""/>
-<$vars target={{$:/temp/howwownow/goodies/viewtiddler/edittags/targetTiddler}} archer={{!!title}}>
-<<linkTargetToArcher archer:"""$(archer)$""" target:"""$(target)$""">>
-</$vars>
+<$button>
+S
+<$action-setfield  $tiddler="$:/temp/search" text={{!!title}}/>
+</$button>

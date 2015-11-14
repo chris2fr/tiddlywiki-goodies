@@ -3,6 +3,13 @@ type: text/vnd.tiddlywiki
 
 !Goodies Plugin by HowWowNow Changelog
 
+!!Release 0.0.14
+
+2015-11-15
+
+* Used $:/temp/search as buffer variable for sub tag adding
+* Put in place + and S buttons for Sub-Tag editing
+
 !!Release 0.0.13
 
 2015-11-14
