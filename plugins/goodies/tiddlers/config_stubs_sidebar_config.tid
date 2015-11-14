@@ -3,4 +3,4 @@ list-after: $:/core/ui/SideBar/Recent
 title: $:/config/howwownow/goodies/stubs/sidebar/Configuration
 type: text/vnd.tiddlywiki
 
-{{||$:/plugins/howwownow/goodies/Configuration}}
+{{||$:/plugins/howwownow/goodies/config}}

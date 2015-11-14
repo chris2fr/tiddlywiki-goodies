@@ -1,4 +1,4 @@
-title: $:/plugins/howwownow/goodies/Configuration
+title: $:/plugins/howwownow/goodies/config
 type: text/vnd.tiddlywiki
 
 \define renderSearchButton( label searchFilter )
@@ -10,8 +10,6 @@ $label$
 \end
 
 <$list filter="[all[tiddlers+shadows]tag[Goodies]]"/>
-
-
 
 {{$:/config/howwownow/goodies/stubs}}
 
