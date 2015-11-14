@@ -17,7 +17,7 @@ $label$
 
 !! Migration to howwownow/goodies
 
-<$macrocall $name="renderSearchButton" label="Migrate Plugin Tiddlers" searchFilter="[prefix[$:/plugin/chris2fr/tiddlybox]]" />
+<$macrocall $name="renderSearchButton" label="Migrate Plugin Tiddlers" searchFilter="[prefix[$:/plugins/chris2fr/tiddlybox]]" />
 
 <$macrocall $name="renderSearchButton" label="Migrate Configuration Tiddlers" searchFilter="[prefix[$:/config/chris2fr/tiddlybox]]" />
 
