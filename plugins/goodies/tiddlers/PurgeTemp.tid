@@ -1,0 +1,12 @@
+created: 20151113080442074
+modified: 20151113182850046
+tags: TiddlyBox
+title: PurgeTemp
+type: text/vnd.tiddlywiki
+
+    <$button>
+    Purge
+    <$action-deletetiddler $filter="[prefix[$:/temp/]]"/>
+    </$button>
+
+    <$list filter="[prefix[$:/temp/]]"/>

@@ -1,6 +1,6 @@
-<h1>TiddlyBox Plugin from HowWowNow</h1>
+<h1>Goodies Plugin from HowWowNow</h1>
 
-TiddlyBox is a collection of utility tiddlers I often use:
+Goodies is a collection of utility tiddlers I often use:
 
 * TableOfContents the way I like it (actually the example)
 * Tiddler viewlets subtags, backlinks and tasks (Important, Urgent and Waiting) like TheBrain
@@ -8,4 +8,4 @@ TiddlyBox is a collection of utility tiddlers I often use:
 * RenameTags when I want to change the name of a tag
 * WikiList that I often transclude in $:\SiteSubtitle.
 
-(copied from <./plugins/tiddlybox/tiddlers/readme.tid>)
+<b>Important:</b> as of version 0.0.15, there is a name change. If you have installed v.0.0.7 or previously, you need to manually delete [[$:/plugins/chris2fr/tiddlybox]].  Old configuation files need to be deleted, replaced or moved to howwownow/goodies.
