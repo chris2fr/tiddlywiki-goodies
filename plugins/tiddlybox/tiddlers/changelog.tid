@@ -9,6 +9,8 @@ type: text/vnd.tiddlywiki
 
 * Added a Diff button to unshadow tiddlers
   (Can be improved by not using for non-shadowed non-shadow tiddlers)
+  (Can be improved with real diff rendering)
+* Added an Undiff button
 
 !!Release 0.0.11
 

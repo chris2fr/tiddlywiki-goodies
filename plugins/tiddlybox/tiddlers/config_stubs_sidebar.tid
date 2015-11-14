@@ -1,0 +1,10 @@
+title: $:/config/chris2fr/tiddlybox/stubs/sidebar
+type: text/vnd.tiddlywiki
+
+<$checkbox tag="$:/tags/SideBar" tiddler="$:/config/chris2fr/tiddlybox/stubs/sidebar/Configuration"/>
+Include Configuration ~SideBar. Otherwise, just use the control panel > plugins > ~TiddlyBox > config panel.
+
+<$checkbox tag="$:/tags/SideBar" tiddler="$:/config/chris2fr/tiddlybox/stubs/sidebar/TableOfContents"/>
+Include TableOfContents ~SideBar. Otherwise, just use as a normal tiddler.
+
+<$checkbox tag="$:/tags/SideBar" tiddler="$:/config/chris2fr/tiddlybox/stubs/sidebar/TaskList"/> Include TaskList ~SideBar. Otherwise, just use as a normal tiddler.
