@@ -1,0 +1,17 @@
+title: $:/plugins/chris2fr/tiddlybox/viewtiddler/diffshadow
+type: text/vnd.tiddlywiki
+
+\define showDiff( source text )
+<$button>
+Diff
+<$action-setfield $tiddler="""$(source)$""" title="""diff/$(source)$"""/>
+<$action-setfield $tiddler="""diff/$(source)$""" text="""$(text)$"""/>
+<$action-deletetiddler $tiddler="""$(source)$"""/>
+<$action-navigate $to="""$(source)$"""/>
+<$action-navigate $to="""diff/$(source)$"""/>
+</$button>
+\end
+
+<$vars source={{!!title}} text={{!!text}}>
+<<showDiff source:"""$(source)$""" text:"""$(text)$""">>
+</$vars>

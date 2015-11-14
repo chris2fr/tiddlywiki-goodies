@@ -3,6 +3,13 @@ type: text/vnd.tiddlywiki
 
 !TiddlyBox Plugin by HowWowNow Changelog
 
+!!Release 0.0.12
+
+2015-11-14
+
+* Added a Diff button to unshadow tiddlers
+  (Can be improved by not using for non-shadowed non-shadow tiddlers)
+
 !!Release 0.0.11
 
 2015-11-13
