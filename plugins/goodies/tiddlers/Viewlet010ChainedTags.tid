@@ -13,5 +13,4 @@ type: text/vnd.tiddlywiki
  <<subTiddlers parent:"""$(parent)$""">>
 </$set>
 {{||$:/plugins/howwownow/goodies/viewtiddler/edittags}}
-{{||$:/plugins/howwownow/goodies/viewtiddler/diffshadow}}
 @@
