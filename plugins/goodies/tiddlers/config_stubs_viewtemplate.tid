@@ -1,20 +1,20 @@
 title: $:/config/howwownow/goodies/stubs/viewtemplate
 type: text/vnd.tiddlywiki
 
-<$checkbox tag="$:/tags/ViewTemplate" tiddler="$:/config/howwownow/goodies/stubs/viewtemplate/AddJumpTag"/>
+<$checkbox tag="$:/tags/ViewTemplate" tiddler="$:/config/howwownow/goodies/stubs/viewtemplate/AddJumpTag" />
 Include Add-Search-to-Jump and Add-Title-to-Search Buttons
 
 @@background-color:lightblue;
-<$checkbox tag="$:/tags/ViewTemplate" tiddler="$:/config/howwownow/goodies/stubs/viewtemplate/Viewlet010ChainedTags"/>
-Include Backlinks
+<$checkbox tag="$:/tags/ViewTemplate" tiddler="$:/config/howwownow/goodies/stubs/viewtemplate/Viewlet010ChainedTags" />
+Include Jump Links
 @@
 
 @@background-color:pink;
-<$checkbox tag="$:/tags/ViewTemplate" tiddler="$:/config/howwownow/goodies/stubs/viewtemplate/Viewlet020CBackLinks"/>
-Include Task Tags
+<$checkbox tag="$:/tags/ViewTemplate" tiddler="$:/config/howwownow/goodies/stubs/viewtemplate/Viewlet020CBackLinks" />
+Include Backlinks
 @@
 
 @@background-color:lightyellow;
-<$checkbox tag="$:/tags/ViewTemplate" tiddler="$:/config/howwownow/goodies/stubs/viewtemplate/Viewlet030CTaskTags"/>
+<$checkbox tag="$:/tags/ViewTemplate" tiddler="$:/config/howwownow/goodies/stubs/viewtemplate/Viewlet030CTaskTags" />
 Include [[Viewlet030CTaskTags|$:/plugins/howwownow/goodies/viewtemplate/Viewlet010ChainedTags]] in Tidders to keep focused
 @@
