@@ -10,5 +10,5 @@ type: text/vnd.tiddlywiki
 \end
 
 @@background-color:purple;
-<$macrocall name="backTiddlers" parent={{!!title}} />
+<$macrocall $name="backTiddlers" parent={{!!title}} />
 @@
