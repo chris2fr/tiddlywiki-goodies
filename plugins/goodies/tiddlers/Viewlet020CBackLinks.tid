@@ -2,6 +2,7 @@ title: $:/plugins/howwownow/goodies/viewtemplate/Viewlet020CBackLinks
 type: text/vnd.tiddlywiki
 
 \define backTiddlers( parent )
+
 <$list filter="[all[tiddlers]title[$(currentTiddler)$]backlinks[]!prefix[$]!tag[$(currentTiddler)$]!title[$(currentTiddler)$]]" template="$:/plugins/howwownow/goodies/viewtemplate/CheckboxTagTemplate" storyview="pop"/>
 
 <$list filter="[all[shadows]title[$(currentTiddler)$]backlinks[]!prefix[$]!tag[$(currentTiddler)$]!title[$(currentTiddler)$]]" template="$:/core/ui/TagTemplate" storyview="pop"/>
@@ -9,5 +10,5 @@ type: text/vnd.tiddlywiki
 \end
 
 @@background-color:purple;
-<$macrocall backTiddlers parent={{!!title}} />
+<$macrocall name="backTiddlers" parent={{!!title}} />
 @@
