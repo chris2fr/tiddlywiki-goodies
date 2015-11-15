@@ -16,5 +16,5 @@ Include Backlinks
 
 @@background-color:lightyellow;
 <$checkbox tag="$:/tags/ViewTemplate" tiddler="$:/config/howwownow/goodies/stubs/viewtemplate/Viewlet030CTaskTags" />
-Include [[Viewlet030CTaskTags|$:/plugins/howwownow/goodies/viewtemplate/Viewlet010ChainedTags]] in Tidders to keep focused
+Include Task-Tag Links.
 @@
