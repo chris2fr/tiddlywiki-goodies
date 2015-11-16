@@ -2,13 +2,13 @@ title: $:/plugins/howwownow/goodies/viewtemplate/AddJumpTag
 type: text/vnd.tiddlywiki
 
 <$button>
-+{{$:/temp/search}}
+{{$:/temp/search}}+tag:{{!!title}}
 <$fieldmangler tiddler={{$:/temp/search}} >
 <$action-sendmessage $message="tm-add-tag" $param={{!!title}}/>
 </$fieldmangler>
 </$button>
 
 <$button>
-->S
+{{!!title}}->{Search}
 <$action-setfield  $tiddler="$:/temp/search" text={{!!title}}/>
 </$button>
