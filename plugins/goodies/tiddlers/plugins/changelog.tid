@@ -10,6 +10,8 @@ type: text/vnd.tiddlywiki
 * Used $:/temp/search as buffer variable for sub tag adding
 * Put in place + and S buttons for Sub-Tag editing
 * Excluding self from backlinks
+* Moved tiddlers to folders
+* Fixed bug of repeating tiddlers as shadows and main tiddlers in downtags.
 
 !!Release 0.0.13
 
