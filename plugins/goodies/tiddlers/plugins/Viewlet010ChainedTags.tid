@@ -3,9 +3,9 @@ type: text/vnd.tiddlywiki
 
 \define subTiddlers( parent )
 <$set name="parent" value="""$(parent)$""">
-<$list filter="[all[tiddlers]tag[$(currentTiddler)$]!title[$(currentTiddler)$]!prefix[$]]" template="$:/plugins/howwownow/goodies/viewtemplate/CheckboxTagTemplate" storyview="pop"/>
+<$list filter="[all[tiddlers]tag[$(currentTiddler)$]!title[$(currentTiddler)$]!prefix[$]is[tiddler]]" template="$:/plugins/howwownow/goodies/viewtemplate/CheckboxTagTemplate" storyview="pop"/>
 </$set>
-<$list filter="[all[shadows]tag[$(currentTiddler)$]!title[$(currentTiddler)$]!prefix[$]]" template="$:/core/ui/TagTemplate" storyview="pop"/>
+<$list filter="[all[shadows]tag[$(currentTiddler)$]!title[$(currentTiddler)$]!prefix[$]!is[tiddler]]" template="$:/core/ui/TagTemplate" storyview="pop"/>
 \end
 
 @@background-color:blue;
