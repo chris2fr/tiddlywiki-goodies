@@ -15,7 +15,6 @@ $label$
 
 !! Migration to howwownow/goodies
 
-Just delete the corresponding tiddlers.
 
 <$macrocall $name="renderSearchButton" label="Migrate Plugin Tiddlers" searchFilter="[prefix[$:/plugins/chris2fr/tiddlybox]]" />
 

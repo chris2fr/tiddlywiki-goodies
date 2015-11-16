@@ -6,12 +6,12 @@ Include Add-Search-to-Jump and Add-Title-to-Search Buttons
 
 @@background-color:lightblue;
 <$checkbox tag="$:/tags/ViewTemplate" tiddler="$:/config/howwownow/goodies/stubs/viewtemplate/Viewlet010ChainedTags" />
-Include Jump Links
+Include Backtags ("toddlers," or tiddlers with the current tiddler as tag.)
 @@
 
 @@background-color:pink;
 <$checkbox tag="$:/tags/ViewTemplate" tiddler="$:/config/howwownow/goodies/stubs/viewtemplate/Viewlet020CBackLinks" />
-Include Backlinks
+Include Backlinks ("jumps," or tiddlers that link to the current tiddler)
 @@
 
 @@background-color:lightyellow;
