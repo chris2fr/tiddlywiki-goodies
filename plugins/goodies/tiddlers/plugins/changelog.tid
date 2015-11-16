@@ -12,6 +12,7 @@ type: text/vnd.tiddlywiki
 * Excluding self from backlinks
 * Moved tiddlers to folders
 * Fixed bug of repeating tiddlers as shadows and main tiddlers in downtags.
+* More explicit, but longer titles for downtag helpers
 
 !!Release 0.0.13
 
