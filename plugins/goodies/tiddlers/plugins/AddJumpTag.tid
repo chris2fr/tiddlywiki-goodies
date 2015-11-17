@@ -15,3 +15,10 @@ type: text/vnd.tiddlywiki
 </$fieldmangler>
 </$button>
 
+<$button>
+{{!!title}}+tag:{{$:/temp/search}}
+<$fieldmangler tiddler={{!!title}} >
+<$action-sendmessage $message="tm-add-tag" $param={{$:/temp/search}}/>
+</$fieldmangler>
+</$button>
+
