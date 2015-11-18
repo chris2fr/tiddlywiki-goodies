@@ -2,8 +2,8 @@ tags:
 title: $:/plugins/howwownow/goodies/viewtemplate/CheckboxTagTemplate
 
 \define subSubTiddlers(  )
-<$checkbox tiddler={{!!title}} tag="""$(parent)$"""/>
-{{||$:/core/ui/TagTemplate}}
+<$checkbox tiddler={{!!title}} tag="""$(parent)$"""/>{{||$:/core/ui/TagTemplate}}
+
 \end
 
 <$macrocall $name="subSubTiddlers" />
