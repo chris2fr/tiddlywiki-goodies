@@ -1,0 +1,13 @@
+\define showLinks( tiddlerTitle )
+[[$tiddlerTitle$]]
+@@background-color:black;
+<$set tiddlerTitle="""$tiddlerTitle$""">
+<$list filter="[title[$tiddlerTitle$]links[]!title[$tiddlerTitle$]!prefix[$]]" storyview="pop" template="TagForwardLinksTemplate"/>
+<$/set>
+@@
+\end
+
+<$edit-text tiddler="$:/temp/TagForwardLinksTiddler" tag="input" type="text"/>
+
+<$macrocall $name="showLinks" tiddlerTitle={{$:/temp/TagForwardLinksTiddler}}/>
+

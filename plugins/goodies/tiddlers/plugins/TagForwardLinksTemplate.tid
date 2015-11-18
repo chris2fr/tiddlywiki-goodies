@@ -1,0 +1,6 @@
+\define tagForwardLinksTemplate(  parent )
+<$checkbox tiddler="""$parent$""" tag={{!!title}}/>
+{{||$:/core/ui/TagTemplate}}
+\end
+
+<$macrocall $name="tagForwardLinksTemplate" parent={{$:/temp/TagForwardLinksTiddler}}/>
