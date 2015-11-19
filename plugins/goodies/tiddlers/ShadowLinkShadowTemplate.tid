@@ -9,11 +9,9 @@ title: ShadowLinkShadowTemplate
 <tr>
 <td>
 @@background-color:grey;
-<$button popup="$:/state/howwownow/goodies/PopupShadow">Shadow</$button>
-<$reveal type="popup" state="$:/state/howwownow/goodies/PopupShadow">
-<div class="tc-drop-down">
+<$button popup="$:/state/howwownow/goodies/PopupShadow" setTo="show">Shadow</$button>
+<$reveal type="match" state="$:/state/howwownow/goodies/PopupShadow" text="show">
 <$checkbox tiddler="$left$" tag="$right$" onclick="confirm('unshadow tiddler?')"/>->
-</div>
 </$reveal>
 @@
 </td>
@@ -21,12 +19,10 @@ title: ShadowLinkShadowTemplate
 [[$left$]]
 </td>
 <td>@@background-color:grey;
-<$button popup="$:/state/howwownow/goodies/PopupShadow">Shadow</$button>
-<$reveal type="popup" state="$:/state/howwownow/goodies/PopupShadow">
 <td>
-<div class="tc-drop-down">
+<$button popup="$:/state/howwownow/goodies/PopupShadow" setTo="show">Shadow</$button>
+<$reveal type="match" state="$:/state/howwownow/goodies/PopupShadow" text="show">
 -><$checkbox tiddler="$right$" tag="$left$" onclick="confirm('unshadow tiddler?')"/>
-</div>
 </$reveal>
 @@
 </td>
