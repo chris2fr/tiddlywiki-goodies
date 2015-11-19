@@ -6,7 +6,7 @@ tags:
 title: ShadowLinkShadowTemplate
 
 <tr>
-<td>
+<td align="right">
 @@background-color:grey;
 <$reveal type="nomatch" state="$:/state/howwownow/goodies/Shadow" text="show">
 <$button set="$:/state/howwownow/goodies/Shadow" setTo="show">Show Shadow</$button>

@@ -9,7 +9,7 @@ title: TagLinkShadowTemplate
 <td>
 <$checkbox tiddler={{!!title}}  tag={{$:/temp/TagLinksTitle}} />->
 </td>
-<td>
+<td align="right">
 {{!!title}}
 </td>
 <td>

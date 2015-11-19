@@ -7,7 +7,7 @@ title: TagLinkTagTemplate
 
 \define checkboxTagLinkCheckboxTag(left right)
 <tr>
-<td>
+<td align="right">
 <$checkbox tiddler="$left$" tag="$right$"/>->
 </td>
 <td>
