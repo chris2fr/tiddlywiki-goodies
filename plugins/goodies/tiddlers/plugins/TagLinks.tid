@@ -28,7 +28,7 @@ title: TagLinks
 <$macrocall $name="renderBacklinkList" tiddlerTitle={{$:/temp/TagLinksTitle}}/>
 </table>
 
-!Forword Links
+!Forward Links
 
 <table>
 <tr>

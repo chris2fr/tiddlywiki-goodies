@@ -5,28 +5,31 @@ modifier: Christopher Mann <christopher@mann.fr>
 tags: 
 title: ShadowLinkShadowTemplate
 
-\define checkboxTagLinkCheckboxTag(left right)
 <tr>
 <td>
 @@background-color:grey;
-<$button popup="$:/state/howwownow/goodies/PopupShadow" setTo="show">Shadow</$button>
-<$reveal type="match" state="$:/state/howwownow/goodies/PopupShadow" text="show">
-<$checkbox tiddler="$left$" tag="$right$" onclick="confirm('unshadow tiddler?')"/>->
+<$reveal type="nomatch" state="$:/state/howwownow/goodies/Shadow" text="show">
+<$button set="$:/state/howwownow/goodies/Shadow" setTo="show">Show Shadow</$button>
+</$reveal>
+<$reveal type="match" state="$:/state/howwownow/goodies/Shadow" text="show">
+<$button set="$:/state/howwownow/goodies/Shadow" setTo="hide">Hide Shadow</$button>
+<$checkbox tiddler={{!!title}}  tag={{$:/temp/TagLinksTitle}} />->
 </$reveal>
 @@
 </td>
 <td>
-[[$left$]]
+{{!!title}}
 </td>
-<td>@@background-color:grey;
 <td>
-<$button popup="$:/state/howwownow/goodies/PopupShadow" setTo="show">Shadow</$button>
-<$reveal type="match" state="$:/state/howwownow/goodies/PopupShadow" text="show">
--><$checkbox tiddler="$right$" tag="$left$" onclick="confirm('unshadow tiddler?')"/>
+@@background-color:grey;
+<$reveal type="nomatch" state="$:/state/howwownow/goodies/Shadow" text="show">
+<$button set="$:/state/howwownow/goodies/Shadow" setTo="show">Show Shadow</$button>
+</$reveal>
+<$reveal type="match" state="$:/state/howwownow/goodies/Shadow" text="show">
+<$button set="$:/state/howwownow/goodies/Shadow" setTo="hide">Hide Shadow</$button>
+<$checkbox tag={{!!title}}  tiddler={{$:/temp/TagLinksTitle}} />->
 </$reveal>
 @@
 </td>
 </tr>
-\end
 
-<$macrocall $name="checkboxTagLinkCheckboxTag" left={{!!title}} right={{$:/temp/TagLinksTitle}}/>
