@@ -2,21 +2,15 @@ title: $:/plugins/howwownow/goodies/viewtemplate/Viewlet010ChainedTags
 type: text/vnd.tiddlywiki
 
 \define subTiddlers( parent )
-<$set name="parent" value="""$(parent)$""">
-<$list filter="[all[tiddlers]tag[$(currentTiddler)$]!title[$(currentTiddler)$]!prefix[$]is[tiddler]]" template="$:/plugins/howwownow/goodies/viewtemplate/CheckboxTagTemplate" storyview="pop"/>
-</$set>
-<$list filter="[all[shadows]tag[$(currentTiddler)$]!title[$(currentTiddler)$]!prefix[$]!is[tiddler]]" template="$:/core/ui/TagTemplate" storyview="pop"/>
+<$list filter="[all[tiddlers+shadows]tag[$(currentTiddler)$]!title[$(currentTiddler)$]!prefix[$]!is[tiddler]]" template="$:/core/ui/TagTemplate" storyview="pop"/>
+\end
+
+@@background-color:blue;
 <$button>
 Add/Remove Tags
 <$action-setfield $tiddler="$:/temp/TagLinksTitle" text={{!!title}}/>
 <$action-setfield $tiddler="$:/state/howwownow/goodies/Shadow" text="hide"/>
 <$action-navigate $to="TagLinks"/>
 </$button>
-\end
-
-@@background-color:blue;
-<$set name="parent" value={{!!title}}>
- <<subTiddlers parent:"""$(parent)$""">>
-</$set>
-{{||$:/plugins/howwownow/goodies/viewtiddler/edittags}}
+<<subTiddlers parent:{{!!title}}>>
 @@

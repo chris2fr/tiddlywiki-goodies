@@ -14,4 +14,10 @@ type: text/vnd.tiddlywiki
 </$list>
 \end
 
+<$reveal type="nomatch" state="$:/state/howwownow/goodies/Flags" text="show">
+<$button set="$:/state/howwownow/goodies/Flags" setTo="show">Show Flags</$button>
+</$reveal>
+<$reveal type="match" state="$:/state/howwownow/goodies/Flags" text="show">
+<$button set="$:/state/howwownow/goodies/Flags" setTo="hide">Hide Flags</$button>
  <<theShadow>>
+</$reveal>

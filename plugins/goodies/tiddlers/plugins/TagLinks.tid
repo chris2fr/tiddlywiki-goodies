@@ -14,15 +14,39 @@ title: TagLinks
 <$list filter="[all[shadows-tiddlers]title[$tiddlerTitle$]is[shadow]links[]!title[$tiddlerTitle$]!is[tiddler]!prefix[$]]" template="ShadowLinkShadowTemplate"/>
 \end
 
+\define renderTagList( tiddlerTitle )
+<$list filter="[tag[$tiddlerTitle$]is[tiddler]][title[$tiddlerTitle$]tags[]is[tiddler]]" template="TagLinkTagTemplate"/>
+<$list filter="[tag[$tiddlerTitle$]!is[tiddler]][title[$tiddlerTitle$]tags[]!is[tiddler]]" template="ShadowLinkShadowTemplate"/>
+\end
 
-<$edit-text tiddler="$:/temp/TagLinksTitle" tag="input" type="text"/>
+! Tag Links
 
-!New Link
+Tiddler : <$edit-text tiddler="$:/temp/TagLinksTitle" tag="input" type="text"  default=""/>
 
-|<$checkbox tiddler={{$:/temp/TagLinksTitleNew}}  tag={{$:/temp/TagLinksTitle}} /> -> |<$edit-text tiddler="$:/temp/TagLinksTitleNew" tag="input" type="text"/>| -> <$checkbox tag={{$:/temp/TagLinksTitleNew}}  tiddler={{$:/temp/TagLinksTitle}} />|
+!! Existing Tags and Backtags
+
+<table>
+<tr>
+<th>Back/Up</th>
+<th>Link</th>
+<th>Forward/Down</th>
+</tr>
+<tr>
+<td>
+<$checkbox tiddler={{$:/temp/TagLinksTitleNew}}  tag={{$:/temp/TagLinksTitle}} /> -> 
+</td>
+<td>
+<$edit-text tiddler="$:/temp/TagLinksTitleNew" tag="input" type="text" default=""/>
+</td>
+<td>
+ -> <$checkbox tag={{$:/temp/TagLinksTitleNew}}  tiddler={{$:/temp/TagLinksTitle}} />
+</td>
+</tr>
+<$macrocall $name="renderTagList" tiddlerTitle={{$:/temp/TagLinksTitle}}/>
+</table>
 
 
-!Back Links
+!! Tag Existing Backlinks
 
 <table>
 <tr>
@@ -33,7 +57,7 @@ title: TagLinks
 <$macrocall $name="renderBacklinkList" tiddlerTitle={{$:/temp/TagLinksTitle}}/>
 </table>
 
-!Forward Links
+!! Tag Existing Links
 
 <table>
 <tr>
