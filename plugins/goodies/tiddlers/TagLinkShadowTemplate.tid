@@ -6,14 +6,14 @@ tags:
 title: TagLinkShadowTemplate
 
 <tr>
-<td>
+<td align="right">
 <$checkbox tiddler={{!!title}}  tag={{$:/temp/TagLinksTitle}} />->
 </td>
-<td align="right">
+<td>
 {{!!title}}
 </td>
-<td>
-background-color:grey;
+<td align="center">
+@@background-color:grey;
 <$reveal type="nomatch" state="$:/state/howwownow/goodies/Shadow" text="show">
 <$button set="$:/state/howwownow/goodies/Shadow" setTo="show">Show Shadow</$button>
 </$reveal>

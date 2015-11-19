@@ -39,7 +39,7 @@ Tiddler : <$edit-text tiddler="$:/temp/TagLinksTitle" tag="input" type="text"  d
 <td align="right">
 <$checkbox tiddler={{$:/temp/TagLinksTitleNew}}  tag={{$:/temp/TagLinksTitle}} /> -> 
 </td>
-<td>
+<td align="center">
 <$edit-text tiddler="$:/temp/TagLinksTitleNew" tag="input" type="text" default=""/>
 </td>
 <td>
@@ -54,8 +54,8 @@ Tiddler : <$edit-text tiddler="$:/temp/TagLinksTitle" tag="input" type="text"  d
 
 <table>
 <tr>
-<th>Backtag</th>
-<th>{{$:/temp/TagLinksTitle}}</th>
+<th align="right">Backtag</th>
+<th align="center">{{$:/temp/TagLinksTitle}}</th>
 <th>Tag</th>
 </tr>
 <$macrocall $name="renderBacklinkList" tiddlerTitle={{$:/temp/TagLinksTitle}}/>
@@ -65,8 +65,8 @@ Tiddler : <$edit-text tiddler="$:/temp/TagLinksTitle" tag="input" type="text"  d
 
 <table>
 <tr>
-<th>Backtag</th>
-<th>{{$:/temp/TagLinksTitle}}</th>
+<th align="right">Backtag</th>
+<th align="center">{{$:/temp/TagLinksTitle}}</th>
 <th>Tag</th>
 </tr>
 <$macrocall $name="renderForwardList" tiddlerTitle={{$:/temp/TagLinksTitle}}/>
