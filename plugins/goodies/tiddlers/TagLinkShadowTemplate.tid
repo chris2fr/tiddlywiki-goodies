@@ -14,7 +14,7 @@ title: TagLinkShadowTemplate
 [[$left$]]
 </td>
 <td>@@background-color:grey;
-''//Shadow//''
+-><$checkbox tiddler="$right$" tag="$left$"/>
 @@
 </td>
 </tr>

@@ -9,7 +9,7 @@ title: ShadowLinkTagTemplate
 <tr>
 <td>
 @@background-color:grey;
-''//Shadow//''
+<$checkbox tiddler="$left$" tag="$right$"/>->
 @@
 </td>
 <td>
