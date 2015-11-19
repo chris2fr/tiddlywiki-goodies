@@ -8,7 +8,7 @@ title: ShadowLinkTagTemplate
 <tr>
 <td>
 @@background-color:grey;
-<$button popup="$:/state/howwownow/goodies/PopupShadow" setTo="show">Shadow</$button>
+<$button set="$:/state/howwownow/goodies/PopupShadow" setTo="show">Shadow</$button>
 <$reveal type="match" state="$:/state/howwownow/goodies/PopupShadow" text="show">
 <$checkbox tiddler={{!!title}}  tag={{$:/temp/TagLinksTitle}} />->
 </$reveal>
