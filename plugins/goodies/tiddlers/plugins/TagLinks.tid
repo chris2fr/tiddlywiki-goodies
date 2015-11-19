@@ -9,9 +9,9 @@ title: TagLinks
 \end
 \define renderForwardList( tiddlerTitle )
 <$list filter="[all[tiddlers]title[$tiddlerTitle$]is[tiddler]links[]!title[$tiddlerTitle$]!prefix[$]]" template="TagLinkTagTemplate"/>
-<$list filter="[all[tiddlers]title[$tiddlerTitle$]links[]is[shadow]!title[$tiddlerTitle$]!prefix[$]]" template="ShadowLinkTagTemplate"/>
-<$list filter="[all[shadows-tiddlers]title[$tiddlerTitle$]is[tiddler]links[]!title[$tiddlerTitle$]!prefix[$]]" template="TagLinkShadowTemplate"/>
-<$list filter="[all[shadows-tiddlers]title[$tiddlerTitle$]links[]is[shadow]!title[$tiddlerTitle$]!prefix[$]]" template="ShadowLinkShadowTemplate"/>
+<$list filter="[all[tiddlers]title[$tiddlerTitle$]is[shadow]links[]!title[$tiddlerTitle$]!prefix[$]]" template="ShadowLinkTagTemplate"/>
+<$list filter="[all[shadows-tiddlers]is[tiddler]title[$tiddlerTitle$]links[]!title[$tiddlerTitle$]!prefix[$]]" template="TagLinkShadowTemplate"/>
+<$list filter="[all[shadows-tiddlers]title[$tiddlerTitle$]is[shadow]links[]!title[$tiddlerTitle$]!prefix[$]]" template="ShadowLinkShadowTemplate"/>
 \end
 
 
