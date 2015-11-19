@@ -17,6 +17,11 @@ title: TagLinks
 
 <$edit-text tiddler="$:/temp/TagLinksTitle" tag="input" type="text"/>
 
+!New Link
+
+|<$checkbox tiddler={{$:/temp/TagLinksTitleNew}}  tag={{$:/temp/TagLinksTitle}} /> -> |<$edit-text tiddler="$:/temp/TagLinksTitleNew" tag="input" type="text"/>| -> <$checkbox tag={{$:/temp/TagLinksTitleNew}}  tiddler={{$:/temp/TagLinksTitle}} />|
+
+
 !Back Links
 
 <table>
