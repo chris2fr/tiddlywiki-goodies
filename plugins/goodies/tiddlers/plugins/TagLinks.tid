@@ -36,7 +36,7 @@ Tiddler : <$edit-text tiddler="$:/temp/TagLinksTitle" tag="input" type="text"  d
 <th>Tag</th>
 </tr>
 <tr>
-<td>
+<td align="right">
 <$checkbox tiddler={{$:/temp/TagLinksTitleNew}}  tag={{$:/temp/TagLinksTitle}} /> -> 
 </td>
 <td>
