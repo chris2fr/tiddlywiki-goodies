@@ -1,3 +1,5 @@
+title: TagForwardLinks
+
 \define showLinks( tiddlerTitle )
 [[$tiddlerTitle$]]
 @@background-color:black;

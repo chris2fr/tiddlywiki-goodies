@@ -6,6 +6,11 @@ type: text/vnd.tiddlywiki
 <$list filter="[all[tiddlers]tag[$(currentTiddler)$]!title[$(currentTiddler)$]!prefix[$]is[tiddler]]" template="$:/plugins/howwownow/goodies/viewtemplate/CheckboxTagTemplate" storyview="pop"/>
 </$set>
 <$list filter="[all[shadows]tag[$(currentTiddler)$]!title[$(currentTiddler)$]!prefix[$]!is[tiddler]]" template="$:/core/ui/TagTemplate" storyview="pop"/>
+<$button>
+Add/Remove Tags
+<$action-setfield $tiddler="$:/temp/TagForwardLinksTiddler" text={{!!title}}/>
+<$action-navigate $to="TagForwardLinks"/>
+</$button>
 \end
 
 @@background-color:blue;

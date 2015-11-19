@@ -1,3 +1,5 @@
+title: TagForwardLinksTemplate
+
 \define tagForwardLinksTemplate(  parent )
 <$checkbox tiddler="""$parent$""" tag={{!!title}}/>
 {{||$:/core/ui/TagTemplate}}
