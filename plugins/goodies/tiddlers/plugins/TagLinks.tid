@@ -31,9 +31,9 @@ Tiddler : <$edit-text tiddler="$:/temp/TagLinksTitle" tag="input" type="text"  d
 
 <table>
 <tr>
-<th>Back/Up</th>
-<th>Link</th>
-<th>Forward/Down</th>
+<th align="right"> Backtag</th>
+<th> {{$:/temp/TagLinksTitle}} </th>
+<th>Tag</th>
 </tr>
 <tr>
 <td>
@@ -54,9 +54,9 @@ Tiddler : <$edit-text tiddler="$:/temp/TagLinksTitle" tag="input" type="text"  d
 
 <table>
 <tr>
-<th>Back/Up</th>
-<th>Link</th>
-<th>Forward/Down</th>
+<th>Backtag</th>
+<th>{{$:/temp/TagLinksTitle}}</th>
+<th>Tag</th>
 </tr>
 <$macrocall $name="renderBacklinkList" tiddlerTitle={{$:/temp/TagLinksTitle}}/>
 </table>
@@ -65,9 +65,9 @@ Tiddler : <$edit-text tiddler="$:/temp/TagLinksTitle" tag="input" type="text"  d
 
 <table>
 <tr>
-<th>Back/Up</th>
-<th>Link</th>
-<th>Forward/Down</th>
+<th>Backtag</th>
+<th>{{$:/temp/TagLinksTitle}}</th>
+<th>Tag</th>
 </tr>
 <$macrocall $name="renderForwardList" tiddlerTitle={{$:/temp/TagLinksTitle}}/>
 </table>
