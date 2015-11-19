@@ -15,8 +15,14 @@ title: TagLinks
 \end
 
 \define renderTagList( tiddlerTitle )
+<$list filter="[title[$tiddlerTitle$]is[tiddler]]">
 <$list filter="[tag[$tiddlerTitle$]is[tiddler]][title[$tiddlerTitle$]tags[]is[tiddler]]" template="TagLinkTagTemplate"/>
+<$list filter="[tag[$tiddlerTitle$]!is[tiddler]][title[$tiddlerTitle$]tags[]!is[tiddler]]" template="ShadowLinkTagTemplate"/>
+</$list>
+<$list filter="[title[$tiddlerTitle$]!is[tiddler]]">
+<$list filter="[tag[$tiddlerTitle$]is[tiddler]][title[$tiddlerTitle$]tags[]is[tiddler]]" template="TagLinkShadowTemplate"/>
 <$list filter="[tag[$tiddlerTitle$]!is[tiddler]][title[$tiddlerTitle$]tags[]!is[tiddler]]" template="ShadowLinkShadowTemplate"/>
+</$list>
 \end
 
 ! Tag Links
