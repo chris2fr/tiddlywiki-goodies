@@ -9,13 +9,17 @@ title: ShadowLinkTagTemplate
 <tr>
 <td>
 @@background-color:grey;
+<$button popup="$:/state/howwownow/goodies/PopupShadow">Shadow</$button>
+<$reveal type="popup" state="$:/state/howwownow/goodies/PopupShadow">
+<div class="tc-drop-down">
 <$checkbox tiddler="$left$" tag="$right$"  onclick="confirm('unshadow tiddler?')"/>->
 @@
 </td>
 <td>
 [[$left$]]
 </td>
-<td>-><$checkbox tiddler="$right$" tag="$left$"/>
+<td>
+-><$checkbox tiddler="$right$" tag="$left$"/>
 </td>
 </tr>
 \end
