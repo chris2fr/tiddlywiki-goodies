@@ -1,0 +1,39 @@
+title: TagLinks
+
+\define renderBacklinkList( tiddlerTitle )
+<$list filter="[all[tiddlers]title[$tiddlerTitle$]backlinks[]!prefix[$]!title[$tiddlerTitle$]is[tiddler]]" template="TagLinkTagTemplate"/>
+<$list filter="[all[tiddlers]title[$tiddlerTitle$]backlinks[]!prefix[$]!title[$tiddlerTitle$]!is[tiddler]]" template="TagLinkShadowTemplate"/>
+<$list filter="[all[shadows-tiddlers]title[$tiddlerTitle$]backlinks[]!prefix[$]!title[$tiddlerTitle$]is[tiddler]]" template="ShadowLinkTagTemplate"/>
+<$list filter="[all[shadows-tiddlers]title[$tiddlerTitle$]backlinks[]!prefix[$]!title[$tiddlerTitle$]!is[tiddler]]" template="ShadowLinkShadowTemplate"/>
+\end
+\define renderForwardList( tiddlerTitle )
+<$list filter="[all[tiddlers]title[$tiddlerTitle$]links[]!title[$tiddlerTitle$]!prefix[$]is[tiddler]]" template="TagLinkTagTemplate"/>
+<$list filter="[all[tiddlers]title[$tiddlerTitle$]links[]!title[$tiddlerTitle$]!prefix[$]!is[tiddler]]" template="ShadowLinkTagTemplate"/>
+<$list filter="[all[shadows-tiddlers]title[$tiddlerTitle$]links[]!title[$tiddlerTitle$]!prefix[$]is[tiddler]]" template="TagLinkShadowTemplate"/>
+<$list filter="[all[shadows-tiddlers]title[$tiddlerTitle$]links[]!title[$tiddlerTitle$]!prefix[$]!is[tiddler]]" template="ShadowLinkShadowTemplate"/>
+\end
+
+
+<$edit-text tiddler="$:/temp/TagLinksTitle" tag="input" type="text"/>
+
+!Back Links
+
+<table>
+<tr>
+<th>Back/Up</th>
+<th>Link</th>
+<th>Forward/Down</th>
+</tr>
+<$macrocall $name="renderBacklinkList" tiddlerTitle={{$:/temp/TagLinksTitle}}/>
+</table>
+
+!Forword Links
+
+<table>
+<tr>
+<th>Back/Up</th>
+<th>Link</th>
+<th>Forward/Down</th>
+</tr>
+<$macrocall $name="renderForwardList" tiddlerTitle={{$:/temp/TagLinksTitle}}/>
+</table>

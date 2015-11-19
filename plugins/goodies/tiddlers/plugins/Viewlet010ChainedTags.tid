@@ -8,8 +8,8 @@ type: text/vnd.tiddlywiki
 <$list filter="[all[shadows]tag[$(currentTiddler)$]!title[$(currentTiddler)$]!prefix[$]!is[tiddler]]" template="$:/core/ui/TagTemplate" storyview="pop"/>
 <$button>
 Add/Remove Tags
-<$action-setfield $tiddler="$:/temp/TagForwardLinksTiddler" text={{!!title}}/>
-<$action-navigate $to="TagForwardLinks"/>
+<$action-setfield $tiddler="$:/temp/TagLinksTitle" text={{!!title}}/>
+<$action-navigate $to="TagLinksTitle"/>
 </$button>
 \end
 

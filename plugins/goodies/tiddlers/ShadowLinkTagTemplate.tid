@@ -1,0 +1,23 @@
+created: 20151118202719526
+creator: Christopher Mann <christopher@mann.fr>
+modified: 20151118202930200
+modifier: Christopher Mann <christopher@mann.fr>
+tags: 
+title: ShadowLinkTagTemplate
+
+\define checkboxTagLinkCheckboxTag(left right)
+<tr>
+<td>
+@@background-color:grey;
+''//Shadow//''
+@@
+</td>
+<td>
+[[$left$]]
+</td>
+<td>-><$checkbox tiddler="$right$" tag="$left$"/>
+</td>
+</tr>
+\end
+
+<$macrocall $name="checkboxTagLinkCheckboxTag" left={{!!title}} right={{$:/temp/TagLinksTitle}}/>

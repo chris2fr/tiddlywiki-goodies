@@ -1,0 +1,21 @@
+created: 20151118202646942
+creator: Christopher Mann <christopher@mann.fr>
+modified: 20151118202657531
+modifier: Christopher Mann <christopher@mann.fr>
+tags: 
+title: TagLinkTagTemplate
+
+\define checkboxTagLinkCheckboxTag(left right)
+<tr>
+<td>
+<$checkbox tiddler="$left$" tag="$right$"/>->
+</td>
+<td>
+[[$left$]]
+</td>
+<td>-><$checkbox tiddler="$right$" tag="$left$"/>
+</td>
+</tr>
+\end
+
+<$macrocall $name="checkboxTagLinkCheckboxTag" left={{!!title}} right={{$:/temp/TagLinksTitle}}/>
