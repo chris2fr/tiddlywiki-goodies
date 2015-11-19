@@ -13,6 +13,8 @@ title: ShadowLinkTagTemplate
 <$reveal type="popup" state="$:/state/howwownow/goodies/PopupShadow">
 <div class="tc-drop-down">
 <$checkbox tiddler="$left$" tag="$right$"  onclick="confirm('unshadow tiddler?')"/>->
+</div>
+</$reveal>
 @@
 </td>
 <td>
