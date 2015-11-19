@@ -25,11 +25,9 @@ title: TagLinks
 </$list>
 \end
 
-! Tag Links
-
 Tiddler : <$edit-text tiddler="$:/temp/TagLinksTitle" tag="input" type="text"  default=""/>
 
-!! Existing Tags and Backtags
+''Existing Tags and Backtags''
 
 <table>
 <tr>
@@ -52,7 +50,7 @@ Tiddler : <$edit-text tiddler="$:/temp/TagLinksTitle" tag="input" type="text"  d
 </table>
 
 
-!! Tag Existing Backlinks
+''Tag Existing Backlinks''
 
 <table>
 <tr>
@@ -63,7 +61,7 @@ Tiddler : <$edit-text tiddler="$:/temp/TagLinksTitle" tag="input" type="text"  d
 <$macrocall $name="renderBacklinkList" tiddlerTitle={{$:/temp/TagLinksTitle}}/>
 </table>
 
-!! Tag Existing Links
+''Tag Existing Links''
 
 <table>
 <tr>
