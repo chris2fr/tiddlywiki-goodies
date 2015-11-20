@@ -1,4 +1,5 @@
 title: $:/plugins/howwownow/goodies/viewtemplate/AddJumpTag
+
 <$button>
 Add/Remove Tags
 <$action-setfield $tiddler="$:/temp/TagLinksTitle" text={{!!title}}/>
