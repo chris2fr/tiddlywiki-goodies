@@ -6,12 +6,5 @@ type: text/vnd.tiddlywiki
 \end
 
 @@background-color:blue;
-<$button>
-Add/Remove Tags
-<$action-setfield $tiddler="$:/temp/TagLinksTitle" text={{!!title}}/>
-<$action-setfield $tiddler="$:/state/howwownow/goodies/Shadow" text="hide"/>
-<$action-navigate $to="TagLinks"/>
-</$button>
 <<subTiddlers parent:{{!!title}}>>
 @@
-

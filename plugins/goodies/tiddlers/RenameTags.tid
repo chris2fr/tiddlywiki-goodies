@@ -17,7 +17,7 @@ This great trick was shown to the tiddlywiki google group by [[Alberto Molina|ht
 
 !First step
 !!//Apply the tag <$tiddler tiddler={{$:/temp/RenameTags/replace}}><$transclude tiddler="$:/core/ui/TagTemplate"/></$tiddler> to the following tiddlers//
-<$list filter="[!has[draft.of]tag{$:/temp/RenameTags/search}!tag{$:/temp/RenameTags/replace}sort[created]]">
+<$list filter="[all[tiddlers+shadows]!has[draft.of]tag{$:/temp/RenameTags/search}!tag{$:/temp/RenameTags/replace}sort[created]]">
 <$checkbox tag={{$:/temp/RenameTags/replace}}> <$link to={{!!title}}><$view field="title"/></$link></$checkbox><br/>
 </$list>
 </$reveal>
@@ -26,7 +26,7 @@ This great trick was shown to the tiddlywiki google group by [[Alberto Molina|ht
 
 !Second step
 !!//Remove the tag <$tiddler tiddler={{$:/temp/RenameTags/search}}><$transclude tiddler="$:/core/ui/TagTemplate"/></$tiddler> from the following tiddlers//
-<$list filter="[!has[draft.of]tag{$:/temp/RenameTags/search}tag{$:/temp/RenameTags/replace}sort[created]]">
+<$list filter="[all[tiddlers+shadows]!has[draft.of]tag{$:/temp/RenameTags/search}tag{$:/temp/RenameTags/replace}sort[created]]">
 <$checkbox tag={{$:/temp/RenameTags/search}}> ~~<$link to={{!!title}}><$view field="title"/></$link>~~</$checkbox><br/>
 </$list>
 </$reveal>

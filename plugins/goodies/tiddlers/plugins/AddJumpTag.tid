@@ -1,0 +1,7 @@
+title: $:/plugins/howwownow/goodies/viewtemplate/AddJumpTag
+<$button>
+Add/Remove Tags
+<$action-setfield $tiddler="$:/temp/TagLinksTitle" text={{!!title}}/>
+<$action-setfield $tiddler="$:/state/howwownow/goodies/Shadow" text="hide"/>
+<$action-navigate $to="TagLinks"/>
+</$button>
