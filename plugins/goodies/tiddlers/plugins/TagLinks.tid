@@ -1,35 +1,35 @@
 title: TagLinks
 
 \define renderBacklinkList( tiddlerTitle )
-<$list filter="[title[$tiddlerTitle$]is[tiddler]]">
-<$list filter="[title[$tiddlerTitle$]backlinks[]!prefix[$]!title[$tiddlerTitle$]is[tiddler]]" template="TagLinkTagTemplate"/>
-<$list filter="[title[$tiddlerTitle$]backlinks[]!prefix[$]!title[$tiddlerTitle$]!is[tiddler]]" template="ShadowLinkTagTemplate"/>
+<$list filter="[all[tiddlers+shadows]title[$tiddlerTitle$]is[tiddler]]">
+<$list filter="[all[tiddlers+shadows]title[$tiddlerTitle$]backlinks[]!prefix[$]!title[$tiddlerTitle$]is[tiddler]]" template="TagLinkTagTemplate"/>
+<$list filter="[all[tiddlers+shadows]title[$tiddlerTitle$]backlinks[]!prefix[$]!title[$tiddlerTitle$]!is[tiddler]]" template="ShadowLinkTagTemplate"/>
 </$list>
-<$list filter="[title[$tiddlerTitle$]!is[tiddler]]">
-<$list filter="[title[$tiddlerTitle$]backlinks[]!prefix[$]!title[$tiddlerTitle$]is[tiddler]]" template="TagLinkShadowTemplate"/>
-<$list filter="[title[$tiddlerTitle$]backlinks[]!prefix[$]!title[$tiddlerTitle$]!is[tiddler]]" template="ShadowLinkShadowTemplate"/>
+<$list filter="[all[tiddlers+shadows]title[$tiddlerTitle$]!is[tiddler]]">
+<$list filter="[all[tiddlers+shadows]title[$tiddlerTitle$]backlinks[]!prefix[$]!title[$tiddlerTitle$]is[tiddler]]" template="TagLinkShadowTemplate"/>
+<$list filter="[all[tiddlers+shadows]title[$tiddlerTitle$]backlinks[]!prefix[$]!title[$tiddlerTitle$]!is[tiddler]]" template="ShadowLinkShadowTemplate"/>
 </$list>
 \end
 
 \define renderForwardList( tiddlerTitle )
-<$list filter="[title[$tiddlerTitle$]is[tiddler]]">
-<$list filter="[title[$tiddlerTitle$]links[]!title[$tiddlerTitle$]is[tiddler]!prefix[$]]" template="TagLinkTagTemplate"/>
-<$list filter="[title[$tiddlerTitle$]links[]!title[$tiddlerTitle$]!is[tiddler]!prefix[$]]" template="ShadowLinkTagTemplate"/>
+<$list filter="[all[tiddlers+shadows]title[$tiddlerTitle$]is[tiddler]]">
+<$list filter="[all[tiddlers+shadows]title[$tiddlerTitle$]links[]!title[$tiddlerTitle$]is[tiddler]!prefix[$]]" template="TagLinkTagTemplate"/>
+<$list filter="[all[tiddlers+shadows]title[$tiddlerTitle$]links[]!title[$tiddlerTitle$]!is[tiddler]!prefix[$]]" template="ShadowLinkTagTemplate"/>
 </$list>
-<$list filter="[title[$tiddlerTitle$]!is[tiddler]]">
-<$list filter="[title[$tiddlerTitle$]links[]!title[$tiddlerTitle$]is[tiddler]!prefix[$]]" template="TagLinkShadowTemplate"/>
-<$list filter="[title[$tiddlerTitle$]links[]!title[$tiddlerTitle$]!is[tiddler]!prefix[$]]" template="ShadowLinkShadowTemplate"/>
+<$list filter="[all[tiddlers+shadows]title[$tiddlerTitle$]!is[tiddler]]">
+<$list filter="[all[tiddlers+shadows]title[$tiddlerTitle$]links[]!title[$tiddlerTitle$]is[tiddler]!prefix[$]]" template="TagLinkShadowTemplate"/>
+<$list filter="[all[tiddlers+shadows]title[$tiddlerTitle$]links[]!title[$tiddlerTitle$]!is[tiddler]!prefix[$]]" template="ShadowLinkShadowTemplate"/>
 </$list>
 \end
 
 \define renderTagList( tiddlerTitle )
-<$list filter="[title[$tiddlerTitle$]is[tiddler]]">
-<$list filter="[tag[$tiddlerTitle$]is[tiddler]][title[$tiddlerTitle$]tags[]is[tiddler]]" template="TagLinkTagTemplate"/>
-<$list filter="[tag[$tiddlerTitle$]!is[tiddler]][title[$tiddlerTitle$]tags[]!is[tiddler]]" template="ShadowLinkTagTemplate"/>
+<$list filter="[all[tiddlers+shadows]title[$tiddlerTitle$]is[tiddler]]">
+<$list filter="[all[tiddlers+shadows]tag[$tiddlerTitle$]is[tiddler]][title[$tiddlerTitle$]tags[]is[tiddler]]" template="TagLinkTagTemplate"/>
+<$list filter="[all[tiddlers+shadows]tag[$tiddlerTitle$]!is[tiddler]][title[$tiddlerTitle$]tags[]!is[tiddler]]" template="ShadowLinkTagTemplate"/>
 </$list>
-<$list filter="[title[$tiddlerTitle$]!is[tiddler]]">
-<$list filter="[tag[$tiddlerTitle$]is[tiddler]][title[$tiddlerTitle$]tags[]is[tiddler]]" template="TagLinkShadowTemplate"/>
-<$list filter="[tag[$tiddlerTitle$]!is[tiddler]][title[$tiddlerTitle$]tags[]!is[tiddler]]" template="ShadowLinkShadowTemplate"/>
+<$list filter="[all[tiddlers+shadows]title[$tiddlerTitle$]!is[tiddler]]">
+<$list filter="[all[tiddlers+shadows]tag[$tiddlerTitle$]is[tiddler]][title[$tiddlerTitle$]tags[]is[tiddler]]" template="TagLinkShadowTemplate"/>
+<$list filter="[all[tiddlers+shadows]tag[$tiddlerTitle$]!is[tiddler]][title[$tiddlerTitle$]tags[]!is[tiddler]]" template="ShadowLinkShadowTemplate"/>
 </$list>
 \end
 

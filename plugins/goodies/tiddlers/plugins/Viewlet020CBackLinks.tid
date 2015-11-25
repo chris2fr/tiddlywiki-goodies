@@ -3,7 +3,7 @@ type: text/vnd.tiddlywiki
 
 \define backTiddlers( )
 <$set name="parent" value="""$(currentTiddler)$""">
-<$list filter="[title[$(currentTiddler)$]backlinks[]!prefix[$]!tag[$(currentTiddler)$]!title[$(currentTiddler)$]]" template="$:/core/ui/TagTemplate" storyview="pop"/>
+<$list filter="[all[tiddlers+shadows]title[$(currentTiddler)$]backlinks[]!prefix[$]!tag[$(currentTiddler)$]!title[$(currentTiddler)$]]" template="$:/core/ui/TagTemplate" storyview="pop"/>
 </$set>
 \end
 

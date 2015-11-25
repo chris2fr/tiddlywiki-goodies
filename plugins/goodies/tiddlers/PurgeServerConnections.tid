@@ -1,10 +1,10 @@
+tags: Goodies
 title: PurgeServerConnections
 type: text/vnd.tiddlywiki
-tags: Goodies
 
-    <$list filter="[prefix[$:/temp/ServerConnection]]"/>
+<$list filter="[prefix[$:/temp/ServerConnection]]"/>
 
-    <$button>
-    Purge
-    <$action-deletetiddler $filter="[prefix[$:/temp/ServerConnection]]"/>
-    </$button>
+<$button>
+Purge
+<$action-deletetiddler $filter="[prefix[$:/temp/ServerConnection]]"/>
+</$button>

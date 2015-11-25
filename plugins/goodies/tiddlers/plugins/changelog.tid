@@ -9,6 +9,7 @@ type: text/vnd.tiddlywiki
 
 * New interface for tag management
 * Depreciation of AddJumpTags
+* Added shadows to listings of links, backlinks
 
 !!Release 0.0.14
 
