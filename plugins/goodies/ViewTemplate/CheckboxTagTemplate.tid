@@ -1,5 +1,5 @@
 tags:
-title: $:/plugins/howwownow/goodies/viewtemplate/CheckboxTagTemplate
+title: $:/plugins/howwownow/goodies/ViewTemplate/CheckboxTagTemplate
 
 \define subSubTiddlers(  )
 <$checkbox tiddler={{!!title}} tag="""$(parent)$"""/>{{||$:/core/ui/TagTemplate}}

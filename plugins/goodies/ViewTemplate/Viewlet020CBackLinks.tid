@@ -1,4 +1,4 @@
-title: $:/plugins/howwownow/goodies/viewtemplate/Viewlet020CBackLinks
+title: $:/plugins/howwownow/goodies/ViewTemplate/Viewlet020CBackLinks
 type: text/vnd.tiddlywiki
 
 \define backTiddlers( )

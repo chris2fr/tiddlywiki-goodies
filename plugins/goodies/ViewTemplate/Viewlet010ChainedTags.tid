@@ -1,4 +1,4 @@
-title: $:/plugins/howwownow/goodies/viewtemplate/Viewlet010ChainedTags
+title: $:/plugins/howwownow/goodies/ViewTemplate/Viewlet010ChainedTags
 type: text/vnd.tiddlywiki
 
 \define subTiddlers( parent )

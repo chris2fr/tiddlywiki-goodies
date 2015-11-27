@@ -1,4 +1,4 @@
-title: $:/plugins/howwownow/goodies/config
+title: $:/plugins/howwownow/goodies/Configure
 type: text/vnd.tiddlywiki
 
 \define renderSearchButton( label searchFilter )
