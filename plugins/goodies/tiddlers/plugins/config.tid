@@ -9,7 +9,7 @@ $label$
 </$button>
 \end
 
-<$list filter="[all[tiddlers+shadows]tag[Goodies]]"/>
+<$list filter="[all[tiddlers+shadows]tag[$:/plugins/howwownow/goodies/Goodies]]"/>
 
 {{$:/config/howwownow/goodies/stubs}}
 
