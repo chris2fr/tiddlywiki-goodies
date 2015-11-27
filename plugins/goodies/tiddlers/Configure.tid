@@ -11,7 +11,7 @@ $label$
 
 <$list filter="[all[tiddlers+shadows]tag[$:/plugins/howwownow/goodies/Goodies]]"/>
 
-{{$:/config/howwownow/goodies/stubs}}
+{{$:/stubs/howwownow/goodies}}
 
 !! Migration to howwownow/goodies
 

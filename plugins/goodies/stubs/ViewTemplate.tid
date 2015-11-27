@@ -1,20 +1,20 @@
-title: $:/config/howwownow/goodies/stubs/viewtemplate
+title: $:/stubs/howwownow/goodies/ViewTemplate
 type: text/vnd.tiddlywiki
 
-<$checkbox tag="$:/tags/ViewTemplate" tiddler="$:/config/howwownow/goodies/stubs/viewtemplate/AddJumpTag" />
+<$checkbox tag="$:/tags/ViewTemplate" tiddler="$:/stubs/howwownow/goodies/ViewTemplate/AddJumpTag" />
 Include Add-Search-to-Jump and Add-Title-to-Search Buttons
 
 @@background-color:lightblue;
-<$checkbox tag="$:/tags/ViewTemplate" tiddler="$:/config/howwownow/goodies/stubs/viewtemplate/Viewlet010ChainedTags" />
+<$checkbox tag="$:/tags/ViewTemplate" tiddler="$:/stubs/howwownow/goodies/ViewTemplate/Viewlet010ChainedTags" />
 Include Backtags ("toddlers," or tiddlers with the current tiddler as tag.)
 @@
 
 @@background-color:pink;
-<$checkbox tag="$:/tags/ViewTemplate" tiddler="$:/config/howwownow/goodies/stubs/viewtemplate/Viewlet020CBackLinks" />
+<$checkbox tag="$:/tags/ViewTemplate" tiddler="$:/stubs/howwownow/goodies/ViewTemplate/Viewlet020CBackLinks" />
 Include Backlinks ("jumps," or tiddlers that link to the current tiddler)
 @@
 
 @@background-color:lightyellow;
-<$checkbox tag="$:/tags/ViewTemplate" tiddler="$:/config/howwownow/goodies/stubs/viewtemplate/Viewlet030CTaskTags" />
+<$checkbox tag="$:/tags/ViewTemplate" tiddler="$:/stubs/howwownow/goodies/ViewTemplate/Viewlet030CTaskTags" />
 Include Task-Tag Links.
 @@

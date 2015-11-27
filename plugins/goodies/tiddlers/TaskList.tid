@@ -1,35 +1,35 @@
 caption: TaskList
 tags: $:/plugins/howwownow/goodies/Goodies
-title: TaskList
+title: $:/plugins/howwownow/goodies/TaskList
 type: application/x-tiddler
 
 This list detects [tag[task]] and [tag[done]] tags.
 
 ! Important Tasks
 
-<$list filter="[all[shadows+tiddlers]!has[draft.of]!tag[done]tag[Important]sort[created]]" template="TaskListTemplate"/>
+<$list filter="[all[shadows+tiddlers]!has[draft.of]!tag[done]tag[Important]sort[created]]" template="$:/plugins/howwownow/goodies/TaskListTemplate"/>
 
 ! Urgent Tasks
 
-<$list filter="[all[shadows+tiddlers]!has[draft.of]!tag[done]tag[Urgent]sort[created]]" template="TaskListTemplate"/>
+<$list filter="[all[shadows+tiddlers]!has[draft.of]!tag[done]tag[Urgent]sort[created]]" template="$:/plugins/howwownow/goodies/TaskListTemplate"/>
 
 ! Outstanding tasks
 
-<$list filter="[all[shadows+tiddlers]!has[draft.of]tag[task]!tag[done]!tag[Waiting]!tag[later]!tag[planned]sort[created]]" template="TaskListTemplate"/>
+<$list filter="[all[shadows+tiddlers]!has[draft.of]tag[task]!tag[done]!tag[Waiting]!tag[later]!tag[planned]sort[created]]" template="$:/plugins/howwownow/goodies/TaskListTemplate"/>
 
 ! Waiting Tasks
 
-<$list filter="[all[shadows+tiddlers]!has[draft.of]!tag[done]tag[Waiting]sort[created]]" template="TaskListTemplate"/>
-<$list filter="[all[shadows+tiddlers]!has[draft.of]!tag[done]tag[waiting]sort[created]]" template="TaskListTemplate"/>
+<$list filter="[all[shadows+tiddlers]!has[draft.of]!tag[done]tag[Waiting]sort[created]]" template="$:/plugins/howwownow/goodies/TaskListTemplate"/>
+<$list filter="[all[shadows+tiddlers]!has[draft.of]!tag[done]tag[waiting]sort[created]]" template="$:/plugins/howwownow/goodies/TaskListTemplate"/>
 
 ! Later Tasks
 
-<$list filter="[all[shadows+tiddlers]!has[draft.of]tag[task]!tag[done]tag[later]sort[created]]" template="TaskListTemplate"/>
+<$list filter="[all[shadows+tiddlers]!has[draft.of]tag[task]!tag[done]tag[later]sort[created]]" template="$:/plugins/howwownow/goodies/TaskListTemplate"/>
 
 
 ! Planned Tasks
 
-<$list filter="[all[shadows+tiddlers]!has[draft.of]tag[task]!tag[done]tag[planned]sort[created]]" template="TaskListTemplate"/>
+<$list filter="[all[shadows+tiddlers]!has[draft.of]tag[task]!tag[done]tag[planned]sort[created]]" template="$:/plugins/howwownow/goodies/TaskListTemplate"/>
 
 ! Completed tasks
 

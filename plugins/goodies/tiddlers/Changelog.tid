@@ -70,7 +70,7 @@ type: text/vnd.tiddlywiki
 
 2015-11-12
 
-* Added features to the sidebare
+* Added features to the SideBare
 * Wrote new Tiddler for $:/plugins/howwownow/goodies/PurgeServerConnections
 
 !!Release 0.0.5
@@ -85,4 +85,4 @@ Initiated Changelog. Current features are:
 * RenameTags when I want to change the name of a tag
 * $:/plugins/howwownow/goodies/WikiList that I often transclude in $:\SiteSubtitle.
 
-Added configurability through $:/config/howwownow/goodies/stubs
+Added configurability through $:/stubs/howwownow/goodies

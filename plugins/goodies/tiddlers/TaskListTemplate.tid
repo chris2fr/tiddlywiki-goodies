@@ -1,6 +1,6 @@
 created: 20151101090943928
 modified: 20151111090712459
-title: TaskListTemplate
+title: $:/plugins/howwownow/goodies/TaskListTemplate
 type: text/vnd.tiddlywiki
 
 D<$checkbox tag="done"/> I<$checkbox tag="Important"/> U<$checkbox tag="Urgent"/> W<$checkbox tag="Waiting"/> L<$checkbox tag="Later"/> P<$checkbox tag="Planned"/> <$view field="Planned"/> <$link to=<<currentTiddler>>><$view field="title"/></$link> <$view field="asplugin"/>
