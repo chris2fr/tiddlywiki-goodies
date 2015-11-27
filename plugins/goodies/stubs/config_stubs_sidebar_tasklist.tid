@@ -1,0 +1,5 @@
+caption: Tasks
+list-after: $:/core/ui/SideBar/Recent
+title: $:/config/howwownow/goodies/stubs/sidebar/TaskList
+
+{{||TaskList}}
