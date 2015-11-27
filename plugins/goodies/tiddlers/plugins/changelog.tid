@@ -71,7 +71,7 @@ type: text/vnd.tiddlywiki
 2015-11-12
 
 * Added features to the sidebare
-* Wrote new Tiddler for PurgeServerConnections
+* Wrote new Tiddler for $:/plugins/howwownow/goodies/PurgeServerConnections
 
 !!Release 0.0.5
 
@@ -79,7 +79,7 @@ type: text/vnd.tiddlywiki
 
 Initiated Changelog. Current features are:
 
-* TableOfContents the way I like it (actually the example)
+* $:/plugins/howwownow/goodies/TableOfContents the way I like it (actually the example)
 * Tiddler viewlets subtags, backlinks and tasks (Important, Urgent and Waiting) like TheBrain
 * TaskList the way I like it (using task, done, planned, Important, Urgent and Waiting tags)
 * RenameTags when I want to change the name of a tag

@@ -1,6 +1,6 @@
 caption: {{$:/language/SideBar/Contents/Caption}}
 list-after: $:/core/ui/SideBar/Open
-title: TableOfContents
+title: $:/plugins/howwownow/goodies/TableOfContents
 type: text/vnd.tiddlywiki
 
 <div class="tc-table-of-contents">

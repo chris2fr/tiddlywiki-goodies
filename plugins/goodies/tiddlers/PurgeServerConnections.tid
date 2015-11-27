@@ -1,5 +1,5 @@
 tags: $:/plugins/howwownow/goodies/Goodies
-title: PurgeServerConnections
+title: $:/plugins/howwownow/goodies/PurgeServerConnections
 type: text/vnd.tiddlywiki
 
 <$list filter="[prefix[$:/temp/ServerConnection]]"/>
