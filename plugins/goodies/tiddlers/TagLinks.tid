@@ -3,7 +3,7 @@ title: $:/plugins/howwownow/goodies/TagLinks
 \define renderBacklinkList( tiddlerTitle )
 <$list filter="[all[tiddlers+shadows]title[$tiddlerTitle$]is[tiddler]]">
 <$list filter="[all[tiddlers+shadows]title[$tiddlerTitle$]backlinks[]!prefix[$]!title[$tiddlerTitle$]is[tiddler]]" template="$:/plugins/howwownow/goodies/TagLinks/TagLinkTagTemplate"/>
-<$list filter="[all[tiddlers+shadows]title[$tiddlerTitle$]backlinks[]!prefix[$]!title[$tiddlerTitle$]!is[tiddler]]" template="ShadowLinkTagTemplate"/>
+<$list filter="[all[tiddlers+shadows]title[$tiddlerTitle$]backlinks[]!prefix[$]!title[$tiddlerTitle$]!is[tiddler]]" template="$:/plugins/howwownow/goodies/TagLinks/ShadowLinkTagTemplate"/>
 </$list>
 <$list filter="[all[tiddlers+shadows]title[$tiddlerTitle$]!is[tiddler]]">
 <$list filter="[all[tiddlers+shadows]title[$tiddlerTitle$]backlinks[]!prefix[$]!title[$tiddlerTitle$]is[tiddler]]" template="$:/plugins/howwownow/goodies/TagLinks/TagLinkShadowTemplate"/>
@@ -14,7 +14,7 @@ title: $:/plugins/howwownow/goodies/TagLinks
 \define renderForwardList( tiddlerTitle )
 <$list filter="[all[tiddlers+shadows]title[$tiddlerTitle$]is[tiddler]]">
 <$list filter="[all[tiddlers+shadows]title[$tiddlerTitle$]links[]!title[$tiddlerTitle$]is[tiddler]!prefix[$]]" template="$:/plugins/howwownow/goodies/TagLinks/TagLinkTagTemplate"/>
-<$list filter="[all[tiddlers+shadows]title[$tiddlerTitle$]links[]!title[$tiddlerTitle$]!is[tiddler]!prefix[$]]" template="ShadowLinkTagTemplate"/>
+<$list filter="[all[tiddlers+shadows]title[$tiddlerTitle$]links[]!title[$tiddlerTitle$]!is[tiddler]!prefix[$]]" template="$:/plugins/howwownow/goodies/TagLinks/ShadowLinkTagTemplate"/>
 </$list>
 <$list filter="[all[tiddlers+shadows]title[$tiddlerTitle$]!is[tiddler]]">
 <$list filter="[all[tiddlers+shadows]title[$tiddlerTitle$]links[]!title[$tiddlerTitle$]is[tiddler]!prefix[$]]" template="$:/plugins/howwownow/goodies/TagLinks/TagLinkShadowTemplate"/>
@@ -25,7 +25,7 @@ title: $:/plugins/howwownow/goodies/TagLinks
 \define renderTagList( tiddlerTitle )
 <$list filter="[all[tiddlers+shadows]title[$tiddlerTitle$]is[tiddler]]">
 <$list filter="[all[tiddlers+shadows]tag[$tiddlerTitle$]is[tiddler]][title[$tiddlerTitle$]tags[]is[tiddler]]" template="$:/plugins/howwownow/goodies/TagLinks/TagLinkTagTemplate"/>
-<$list filter="[all[tiddlers+shadows]tag[$tiddlerTitle$]!is[tiddler]][title[$tiddlerTitle$]tags[]!is[tiddler]]" template="ShadowLinkTagTemplate"/>
+<$list filter="[all[tiddlers+shadows]tag[$tiddlerTitle$]!is[tiddler]][title[$tiddlerTitle$]tags[]!is[tiddler]]" template="$:/plugins/howwownow/goodies/TagLinks/ShadowLinkTagTemplate"/>
 </$list>
 <$list filter="[all[tiddlers+shadows]title[$tiddlerTitle$]!is[tiddler]]">
 <$list filter="[all[tiddlers+shadows]tag[$tiddlerTitle$]is[tiddler]][title[$tiddlerTitle$]tags[]is[tiddler]]" template="$:/plugins/howwownow/goodies/TagLinks/TagLinkShadowTemplate"/>
