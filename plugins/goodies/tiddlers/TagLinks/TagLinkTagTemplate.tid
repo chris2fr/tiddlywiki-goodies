@@ -3,7 +3,7 @@ creator: Christopher Mann <christopher@mann.fr>
 modified: 20151118202657531
 modifier: Christopher Mann <christopher@mann.fr>
 tags: 
-title: TagLinkTagTemplate
+title: $:/plugins/howwownow/goodies/TagLinks/TagLinkTagTemplate
 
 \define checkboxTagLinkCheckboxTag(left right)
 <tr>

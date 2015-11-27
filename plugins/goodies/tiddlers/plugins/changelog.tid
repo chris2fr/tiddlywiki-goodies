@@ -83,6 +83,6 @@ Initiated Changelog. Current features are:
 * Tiddler viewlets subtags, backlinks and tasks (Important, Urgent and Waiting) like TheBrain
 * TaskList the way I like it (using task, done, planned, Important, Urgent and Waiting tags)
 * RenameTags when I want to change the name of a tag
-* WikiList that I often transclude in $:\SiteSubtitle.
+* $:/plugins/howwownow/goodies/WikiList that I often transclude in $:\SiteSubtitle.
 
 Added configurability through $:/config/howwownow/goodies/stubs
