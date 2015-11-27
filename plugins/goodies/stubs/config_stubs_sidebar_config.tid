@@ -1,6 +1,0 @@
-title: $:/config/howwownow/goodies/stubs/sidebar/Configuration
-caption: Goodies
-list-after: $:/core/ui/SideBar/Recent
-type: text/vnd.tiddlywiki
-
-{{||$:/plugins/howwownow/goodies/config}}
