@@ -21,3 +21,8 @@ $label$
 <$macrocall $name="renderSearchButton" label="Migrate Configuration Tiddlers" searchFilter="[prefix[$:/config/chris2fr/tiddlybox]]" />
 
 <$macrocall $name="renderSearchButton" label="Migrate Temp Tiddlers" searchFilter="[prefix[$:/temp/chris2fr/tiddlybox]]" />
+
+<$button>
+Delete Old Stubs
+<$action-deletetiddler $filter="$:/config/howwownow/goodies/stubs/sidebar"/>
+</$button>

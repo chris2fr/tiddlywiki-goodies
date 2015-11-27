@@ -1,0 +1,8 @@
+title: $:/stubs/howwownow/goodies/ViewTemplate/
+type: text/vnd.tiddlywiki
+
+
+Viewlet010ChainedTags: {{||$:/plugins/howwownow/goodies/ViewTemplate/Viewlet010ChainedTags}}
+Viewlet020CBackLinks: {{||$:/plugins/howwownow/goodies/ViewTemplate/Viewlet020CBackLinks}}
+Viewlet030CTaskTags: {{||$:/plugins/howwownow/goodies/ViewTemplate/Viewlet030CTaskTags}}
+AddJumpTag: {{||$:/plugins/howwownow/goodies/ViewTemplate/AddJumpTag}}
