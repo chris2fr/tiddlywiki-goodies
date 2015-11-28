@@ -1,5 +1,7 @@
+<!-- vim :set ts=4 sw=4 sts=4 et :
 title: $:/plugins/howwownow/goodies/README
 type: text/vnd.tiddlywiki
+-->
 
 <h1>Goodies Plugin from HowWowNow</h1>
 
