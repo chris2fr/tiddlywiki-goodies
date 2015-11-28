@@ -1,7 +1,13 @@
+<!-- vim :set ts=4 sw=4 sts=4 et :
+created: 20151128000000000
+creator: Christopher Mann <christopher@mann.fr>
+description: Standard Table of Contents
+tags: $:/plugins/howwownow/goodies 
 caption: {{$:/language/SideBar/Contents/Caption}}
 list-after: $:/core/ui/SideBar/Open
 title: $:/plugins/howwownow/goodies/TableOfContents
 type: text/vnd.tiddlywiki
+-->
 
 <div class="tc-table-of-contents">
 

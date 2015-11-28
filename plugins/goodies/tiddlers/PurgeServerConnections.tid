@@ -1,6 +1,12 @@
-tags: $:/plugins/howwownow/goodies/Goodies
+<!-- vim :set ts=4 sw=4 sts=4 et :
+created: 20151128000000000
+creator: Christopher Mann <christopher@mann.fr>
+description:  
+caption: 
+tags: $:/plugins/howwownow/goodies $:/plugins/howwownow/goodies/Goodies
 title: $:/plugins/howwownow/goodies/PurgeServerConnections
 type: text/vnd.tiddlywiki
+-->
 
 <$list filter="[prefix[$:/temp/ServerConnection]]"/>
 

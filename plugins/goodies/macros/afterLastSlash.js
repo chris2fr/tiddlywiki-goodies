@@ -1,8 +1,12 @@
-/*\
+/*\  vim :set ts=4 sw=4 sts=4 et :
 title: afterLastSlash
 type: application/javascript
 module-type: macro
-tags: HowWowNow/Goodies
+description: Grabs last part of string after last /
+caption: afterLastSlash
+tags: $:/plugins/howwownow/goodies 
+creator: Christopher Mann <christopher@mann.fr>
+created: 20151128000000000
 
 Macro to only show what is after the last / of a name
 

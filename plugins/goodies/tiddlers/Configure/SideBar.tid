@@ -1,5 +1,13 @@
+<!-- vim :set ts=4 sw=4 sts=4 et :
 title: $:/plugins/howwownow/goodies/Configure/SideBar
+description: Configures what ~SideBars are displayed
+caption: ~ConfigureSideBar
+tags: $:/plugins/howwownow/goodies 
+creator: Christopher Mann <christopher@mann.fr>
+created: 20151128000000000
 type: text/vnd.tiddlywiki
+-->
+
 
 <$checkbox tag="$:/tags/SideBar" tiddler="$:/stubs/howwownow/goodies/SideBar/Configuration"/>
 Include Configuration ~SideBar. Otherwise, just use the control panel > plugins > ~Goodies > config panel.

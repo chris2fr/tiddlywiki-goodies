@@ -1,13 +1,14 @@
-<!--
+<!-- vim :set ts=4 sw=4 sts=4 et :
 title: $:/plugins/howwownow/goodies/RenameTags
 created: 20140114170004978
 creator: Stephan Hradek
 description: A great trick invented by Alberto Molina to search and replace tags.
 modified: 20141106170635901
 modifier: Stephan Hradek
-tags: $:/plugins/howwownow/goodies/Goodies
+tags: $:/plugins/howwownow/goodies $:/plugins/howwownow/goodies/Goodies
 type: text/vnd.tiddlywiki
 -->
+
 
 This great trick was shown to the tiddlywiki google group by [[Alberto Molina|https://groups.google.com/forum/#!topic/tiddlywiki/OCntQ79DuwM]]. I enhanced it a bit.
 

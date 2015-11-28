@@ -1,7 +1,12 @@
+<!-- vim :set ts=4 sw=4 sts=4 et :
+created: 20151128000000000
+creator: Christopher Mann <christopher@mann.fr>
+description:  This is a standard task lisk using 7 tags: Important, Urgent, Waiting, Later, Planned, Done, Task
+tags: $:/plugins/howwownow/goodies $:/plugins/howwownow/goodies/Goodies
 caption: TaskList
-tags: $:/plugins/howwownow/goodies/Goodies
 title: $:/plugins/howwownow/goodies/TaskList
 type: application/x-tiddler
+-->
 
 This list detects [tag[task]] and [tag[done]] tags.
 

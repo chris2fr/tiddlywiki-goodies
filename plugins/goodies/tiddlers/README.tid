@@ -1,9 +1,10 @@
 <!-- vim :set ts=4 sw=4 sts=4 et :
 created: 20151128000000000
 creator: Christopher Mann <christopher@mann.fr>
-description: 
-tags: $:/plugins/editor/plugin
+description: TiddlyWiki How?Wow!Now Goodies plugin README. Goodies is a collection of utility tiddlers for my personal use.
+tags: $:/plugins/howwownow/goodies
 title: $:/plugins/howwownow/goodies/README
+caption: README
 type: text/x-markdown
 -->
 

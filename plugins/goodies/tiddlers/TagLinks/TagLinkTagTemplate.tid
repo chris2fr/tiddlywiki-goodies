@@ -1,9 +1,13 @@
-created: 20151118202646942
-creator: Christopher Mann <christopher@mann.fr>
-modified: 20151118202657531
-modifier: Christopher Mann <christopher@mann.fr>
-tags: 
+<!-- vim :set ts=4 sw=4 sts=4 et :
 title: $:/plugins/howwownow/goodies/TagLinks/TagLinkTagTemplate
+description: Template for each line in TagLinks where a tiddler links another tiddler (non-shadows)
+caption: TagLinkTemplate
+tags: $:/plugins/howwownow/goodies 
+creator: Christopher Mann <christopher@mann.fr>
+created: 20151128000000000
+type: text/vnd.tiddlywiki
+-->
+
 
 \define checkboxTagLinkCheckboxTag(left right)
 <tr>

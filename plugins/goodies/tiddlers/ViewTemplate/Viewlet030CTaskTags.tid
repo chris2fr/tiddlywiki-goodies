@@ -1,5 +1,12 @@
+<!-- vim :set ts=4 sw=4 sts=4 et :
 title: $:/plugins/howwownow/goodies/ViewTemplate/Viewlet030CTaskTags
+description: A viewlet for Urgent and Important Tasks Flags
+caption: Priority
+tags: $:/plugins/howwownow/goodies 
+creator: Christopher Mann <christopher@mann.fr>
+created: 20151128000000000
 type: text/vnd.tiddlywiki
+-->
 
 \define theShadow( )
 <$list filter="[title[$(currentTiddler)$]is[tiddler]]">

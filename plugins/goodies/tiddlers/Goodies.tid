@@ -1,4 +1,13 @@
+<!-- vim :set ts=4 sw=4 sts=4 et :
+created: 20151128000000000
+creator: Christopher Mann <christopher@mann.fr>
+description: The utility pages are all tagged with $:/plugins/howwownow/goodies/Goodies. This is the way you can find the goodies. 
+tags: $:/plugins/howwownow/goodies
+caption: Goodies
 title: $:/plugins/howwownow/goodies/Goodies
 type: text/vnd.tiddlywiki
+-->
 
-This is the main Goodies tiddler.
+This is the main Goodies tiddler. The Goodies tiddlers are tagged with this page.
+
+{{{[all[shadows+tiddlers]tag[$:/plugins/howwownow/goodies/Goodies]]}}}

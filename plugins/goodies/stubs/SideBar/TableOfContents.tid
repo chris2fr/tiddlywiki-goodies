@@ -1,6 +1,14 @@
+<!-- vim :set ts=4 sw=4 sts=4 et :
 caption: Contents
 list-after: $:/core/ui/SideBar/Open
 title: $:/stubs/howwownow/goodies/SideBar/TableOfContents
+description: Stub for showing or not showing the TableOfContents in the SideBar.
+caption: TableOfContents SideBar stub
+tags: $:/plugins/howwownow/goodies 
+creator: Christopher Mann <christopher@mann.fr>
+created: 20151128000000000
 type: text/vnd.tiddlywiki
+-->
+
 
 {{||$:/plugins/howwownow/goodies/TableOfContents}}

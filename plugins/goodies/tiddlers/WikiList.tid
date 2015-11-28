@@ -1,6 +1,12 @@
-tags: $:/plugins/howwownow/goodies/Goodies
+<!-- vim :set ts=4 sw=4 sts=4 et :
+created: 20151128000000000
+creator: Christopher Mann <christopher@mann.fr>
+description: I don't use this anymore. It was to append to the title.
+caption: WikiList
+tags: $:/plugins/howwownow/goodies $:/plugins/howwownow/goodies/Goodies
 title: $:/plugins/howwownow/goodies/WikiList
 type: text/vnd.tiddlywiki
+-->
 
 [ext[.]]
 [ext[..]]

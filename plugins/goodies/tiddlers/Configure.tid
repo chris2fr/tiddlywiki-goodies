@@ -1,5 +1,12 @@
+<!-- vim :set ts=4 sw=4 sts=4 et :
+created: 20151128000000000
+creator: Christopher Mann <christopher@mann.fr>
+description: Configuration Tiddler for the Goodies plugin.
+tags: $:/plugins/howwownow/goodies
+caption: Configure
 title: $:/plugins/howwownow/goodies/Configure
 type: text/vnd.tiddlywiki
+-->
 
 \define renderSearchButton( label searchFilter )
 <$button>

@@ -1,9 +1,13 @@
-created: 20151118202701240
-creator: Christopher Mann <christopher@mann.fr>
-modified: 20151118202942656
-modifier: Christopher Mann <christopher@mann.fr>
-tags: 
+<!-- vim :set ts=4 sw=4 sts=4 et :
 title: $:/plugins/howwownow/goodies/TagLinks/TagLinkShadowTemplate
+description: A tiddler links to a tag represented by a shadow tiddler.
+caption: Template Tag Link Shadow
+tags: $:/plugins/howwownow/goodies 
+creator: Christopher Mann <christopher@mann.fr>
+created: 20151128000000000
+type: text/vnd.tiddlywiki
+-->
+
 
 <tr>
 <td align="right">

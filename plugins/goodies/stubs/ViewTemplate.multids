@@ -1,4 +1,9 @@
 title: $:/stubs/howwownow/goodies/ViewTemplate/
+description: Stubs for showing or not showing in ViewTemplate
+caption: ViewTemplate Stubs
+tags: $:/plugins/howwownow/goodies 
+creator: Christopher Mann <christopher@mann.fr>
+created: 20151128000000000
 type: text/vnd.tiddlywiki
 
 Viewlet010ChainedTags: {{||$:/plugins/howwownow/goodies/ViewTemplate/Viewlet010ChainedTags}}

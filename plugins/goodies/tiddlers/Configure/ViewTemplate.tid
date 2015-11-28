@@ -1,5 +1,12 @@
+<!-- vim :set ts=4 sw=4 sts=4 et :
 title: $:/plugins/howwownow/goodies/Configure/ViewTemplate
+description: Configures what controls are displayed below each Tiddler
+caption: Conf. ~ViewTemplate
+tags: $:/plugins/howwownow/goodies 
+creator: Christopher Mann <christopher@mann.fr>
+created: 20151128000000000
 type: text/vnd.tiddlywiki
+-->
 
 <$checkbox tag="$:/tags/ViewTemplate" tiddler="$:/stubs/howwownow/goodies/ViewTemplate/AddJumpTag" />
 Include Add-Search-to-Jump and Add-Title-to-Search Buttons

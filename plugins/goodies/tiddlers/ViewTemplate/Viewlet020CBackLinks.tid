@@ -1,5 +1,12 @@
+<!-- vim :set ts=4 sw=4 sts=4 et :
 title: $:/plugins/howwownow/goodies/ViewTemplate/Viewlet020CBackLinks
+description: Shows backlinks
+caption: Backlinks
+tags: $:/plugins/howwownow/goodies 
+creator: Christopher Mann <christopher@mann.fr>
+created: 20151128000000000
 type: text/vnd.tiddlywiki
+-->
 
 \define backTiddlers( )
 <$set name="parent" value="""$(currentTiddler)$""">
