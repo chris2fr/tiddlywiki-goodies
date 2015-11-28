@@ -1,0 +1,1 @@
+cp plugins/goodies/tiddlers/README.tid ./README.md
