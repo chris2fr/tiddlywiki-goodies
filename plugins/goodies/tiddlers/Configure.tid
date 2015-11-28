@@ -18,9 +18,9 @@ $label$
 
 <$list filter="[all[tiddlers+shadows]tag[$:/plugins/howwownow/goodies/Goodies]]"/>
 
-{{$:/Plugins/howwownow/goodies/Configure/SideBar}}
+{{$:/plugins/howwownow/goodies/Configure/SideBar}}
 
-{{$:/config/howwownow/goodies/Configure/ViewTemplate}}
+{{$:/plugins/howwownow/goodies/Configure/ViewTemplate}}
 
 !! Migration to howwownow/goodies
 
