@@ -1,4 +1,4 @@
-title: $:/stubs/howwownow/goodies/ViewTemplate
+title: $:/plugins/howwownow/goodies/Configure/ViewTemplate
 type: text/vnd.tiddlywiki
 
 <$checkbox tag="$:/tags/ViewTemplate" tiddler="$:/stubs/howwownow/goodies/ViewTemplate/AddJumpTag" />

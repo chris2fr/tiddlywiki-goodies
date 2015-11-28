@@ -11,7 +11,9 @@ $label$
 
 <$list filter="[all[tiddlers+shadows]tag[$:/plugins/howwownow/goodies/Goodies]]"/>
 
-{{$:/stubs/howwownow/goodies}}
+{{$:/Plugins/howwownow/goodies/Configure/SideBar}}
+
+{{$:/config/howwownow/goodies/Configure/ViewTemplate}}
 
 !! Migration to howwownow/goodies
 
@@ -24,5 +26,6 @@ $label$
 
 <$button>
 Delete Old Stubs
-<$action-deletetiddler $filter="$:/config/howwownow/goodies/stubs/sidebar"/>
+<$action-deletetiddler $filter="$:/config/howwownow/goodies/stubs"/>
+<$action-deletetiddler $filter="$:/stubs/howwownow/goodies"/>
 </$button>

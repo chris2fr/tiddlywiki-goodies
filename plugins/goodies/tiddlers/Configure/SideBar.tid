@@ -1,4 +1,4 @@
-title: $:/stubs/howwownow/goodies/SideBar
+title: $:/plugins/howwownow/goodies/Configure/SideBar
 type: text/vnd.tiddlywiki
 
 <$checkbox tag="$:/tags/SideBar" tiddler="$:/stubs/howwownow/goodies/SideBar/Configuration"/>

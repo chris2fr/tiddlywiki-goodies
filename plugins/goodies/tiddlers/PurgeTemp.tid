@@ -4,9 +4,9 @@ tags: $:/plugins/howwownow/goodies/Goodies
 title: $:/plugins/howwownow/goodies/PurgeTemp
 type: text/vnd.tiddlywiki
 
-    <$button>
-    Purge
-    <$action-deletetiddler $filter="[prefix[$:/temp/]]"/>
-    </$button>
+<$button>
+Purge
+<$action-deletetiddler $filter="[prefix[$:/temp/]]"/>
+</$button>
 
-    <$list filter="[prefix[$:/temp/]]"/>
+<$list filter="[prefix[$:/temp/]]"/>
